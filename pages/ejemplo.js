@@ -55,7 +55,7 @@ function Ejemplo() {
               borderColor='black'
               boxSize='100px'
               objectFit='cover'
-              src='images/image.png'
+              src='images/kasus.png'
               alt='Dan Abramov'
             />
 
