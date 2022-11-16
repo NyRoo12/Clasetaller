@@ -30,13 +30,11 @@ import {
 }
 
   from "@chakra-ui/react";
-import Script from "next/script";
 import React from "react";
-import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons';
 
-
-const handleClick = () => {
-  alert("mati es muy tonto");
+const hola = "aaaa";
+const handleClick = (hola) => {
+  alert("Aquí debería aparecer la ruta" + " " + hola);
 };
 
 function Ejemplo() {
@@ -50,7 +48,7 @@ function Ejemplo() {
       <br />
       <Flex>
 
-        <Button ref={btnRef} w='10%' colorScheme="teal" onClick={onOpen}>
+        <Button ref={btnRef} w='10%' colorScheme="teal" onClick={onOpen} height='43px' fontSize='17px' left='2%' >
           LINEAS
         </Button>
         <br />
@@ -74,11 +72,11 @@ function Ejemplo() {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay />
-        <DrawerContent>
+        <DrawerContent >
           <DrawerCloseButton />
           <DrawerHeader>LINEAS</DrawerHeader>
 
-          <FormControl display='flex' alignItems='center'>
+          <FormControl display='flex' alignItems='center' left='5%'>
             <FormLabel mb='0' color='black'>
               Filtrar
             </FormLabel>
@@ -86,40 +84,39 @@ function Ejemplo() {
           </FormControl>
           <br />
 
-
-          <Button w='65%' colorScheme="blue" onClick={handleClick}>
+          <Button w='65%' colorScheme="blue" left='5%' onClick={() => handleClick("Linea 1")} >
             Linea 1
           </Button>
           <br />
-          <Button w='65%' colorScheme="purple" >
+          <Button w='65%' colorScheme="purple" left='5%' onClick={() => handleClick("Linea 2")}>
             Linea 2
           </Button>
           <br />
-          <Button w='65%' colorScheme="green">
+          <Button w='65%' colorScheme="green" left='5%' onClick={() => handleClick("Linea 3")}>
             Linea 3
           </Button>
           <br />
-          <Button w='65%' colorScheme="red">
+          <Button w='65%' colorScheme="red" left='5%' onClick={() => handleClick("Linea 4")}>
             Linea 4
           </Button>
           <br />
-          <Button w='65%' colorScheme="pink">
+          <Button w='65%' colorScheme="pink" left='5%' onClick={() => handleClick("Linea 5")}>
             Linea 5
           </Button>
           <br />
-          <Button w='65%' colorScheme=" yellow">
+          <Button w='65%' colorScheme=" yellow" left='5%' onClick={() => handleClick("Linea 9")}>
             Linea 9
           </Button>
           <br />
-          <Button w='65%' colorScheme="red">
+          <Button w='65%' colorScheme="red" left='5%' onClick={() => handleClick("Linea 11")}>
             Linea 11
           </Button>
           <br />
-          <Button w='65%' colorScheme="cyan">
+          <Button w='65%' colorScheme="cyan" left='5%' onClick={() => handleClick("Linea 13")}>
             Linea 13
           </Button>
           <br />
-          <Button w='65%' colorScheme="orange">
+          <Button w='65%' colorScheme="orange" left='5%' onClick={() => handleClick("Linea 20")}>
             Linea 20
           </Button>
 
