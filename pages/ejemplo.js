@@ -119,7 +119,7 @@ function Ejemplo() {
           </Button>
           <br />
           <Button w='65%' colorScheme="orange" left='5%' onClick={() => handleClick("Linea 1")} >
-            mati tonto
+            Linea 20 T
           </Button>
 
           <DrawerFooter>
