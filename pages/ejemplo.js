@@ -55,7 +55,7 @@ function Ejemplo() {
               borderColor='black'
               boxSize='100px'
               objectFit='cover'
-              src='https://cdn.discordapp.com/attachments/990043778817609752/1042285125561499678/image.png'
+              src='images/image.png'
               alt='Dan Abramov'
             />
 
