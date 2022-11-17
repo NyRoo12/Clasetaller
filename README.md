@@ -198,6 +198,3 @@ El último paso consiste en especificar qué pasa cuando el checkbox cambia (onC
 ```
 
 Notar como el atributo checked del input se asocia a la varibale checked (podríamos haber usado cualquier otro nombre de variable, no es necesario que se llamen igual :S ). Notar también como onChange usa setChecked (el setter creado por el useState) para reestablecer _checked_ con su valor negado. El setter setChecked cambiará sólo la variable (el state) _checked_, y luego el useEffect respectivo reaccionará, alacenando el nuevo valore en el localStorage.
-"# KaSuS" 
-"# KaSuS" 
-"# KaSuS" 

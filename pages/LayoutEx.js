@@ -1,19 +1,19 @@
-
-
-
+import Tarjeta from "../components/tarjeta";
 const LayoutEx = () => {
-    return (
-        <div id = "BloquePrincipal">
-            <div id = "menuLateral">
-                <a href = "http:www.google.com"> Ir a google</a>
-            </div>
-            <div id = "contenidoPrincipal">
-                
-            </div>
-        </div>
+  let frases = { contenido: ["frase 1", "frase 2", "frase 3"] };
 
-
-    );
-}
+  return (
+    <div id="bloquePrincipal">
+      <div id="menuLateral">
+        <a href="http:www.google.com">Ir a google</a>
+      </div>
+      <div id="contenidoPrincipal">
+        {frases.contenido.map((item, index) => (
+          <Tarjeta texto={item}></Tarjeta>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default LayoutEx;

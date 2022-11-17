@@ -38,7 +38,7 @@ export default function PageList({ data }) {
       <div className="todo-list">
         {data.map((item, index) => (
           <TodoItem key={index} item={item} />
-        ))}
+        ))};
       </div>
     </Layout>
   );
