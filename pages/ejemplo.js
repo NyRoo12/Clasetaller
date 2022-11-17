@@ -84,7 +84,7 @@ function Ejemplo() {
 
           <br />
           <Button w='65%' colorScheme="blue" left='5%' onClick={() => handleClick("Linea 1")} >
-            Linea 1
+            Linea 12
           </Button>
           <br />
           <Button w='65%' colorScheme="purple" left='5%' onClick={() => handleClick("Linea 2")}>
