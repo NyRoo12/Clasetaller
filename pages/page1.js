@@ -5,12 +5,12 @@ import Layout from "../components/layout";
 
 export default function Page1() {
   return (
-    <Layout pageId="page1">
-      <Head>
-        <title>Página 1</title>
+    <Layout pageId="page1" >
+      <Head >
+        <title >Página 1</title>
       </Head>
-      <h1>Página Uno</h1>
-      <Image
+      <h1 >Página Uno</h1>
+      <Image 
         src="/images/eye.png"
         height={294} // Desired size with correct aspect ratio
         width={470} // Desired size with correct aspect ratio

@@ -14,6 +14,7 @@ import {
   FormLabel,
   Switch,
   Image,
+  Link
 }
 
   from "@chakra-ui/react";
@@ -22,7 +23,17 @@ import Script from "next/script";
 
 const hola = "aaaa";
 const handleClick = (hola) => {
-  alert("Aquí debería aparecer la ruta" + " " + hola);
+  const Layout = ({ children, pageId }) => {
+  <Link href="/linea1">
+      
+        <a
+            className={pageId === "linea1" ? "currentPage" : ""}
+            
+        >
+            Linea 1
+        </a>
+        </Link>
+  }
 };
 
 function Ejemplo() {
@@ -84,6 +95,7 @@ function Ejemplo() {
 
           <br />
           <Button w='65%' colorScheme="blue" left='5%' onClick={() => handleClick("Linea 1")} >
+          
             Linea 1
           </Button>
           <br />

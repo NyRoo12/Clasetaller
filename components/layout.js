@@ -14,18 +14,18 @@ const Layout = ({ children, pageId }) => {
   }
 
   return (
-    <div className="container">
+    <div className="container" >
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Ejemplo de sitio web con menú" />
       </Head>
-      <header className="menu">
+      <header className="menu" >
         <Link href="/page1">
           <a
             className={pageId === "page1" ? "currentPage" : ""}
             onClick={incrementViews}
           >
-            Página 1
+            hola
           </a>
         </Link>
 
@@ -34,7 +34,7 @@ const Layout = ({ children, pageId }) => {
             className={pageId === "page2" ? "currentPage" : ""}
             onClick={incrementViews}
           >
-            Página 2
+            hola
           </a>
         </Link>
 
@@ -43,7 +43,7 @@ const Layout = ({ children, pageId }) => {
             className={pageId === "page3" ? "currentPage" : ""}
             onClick={incrementViews}
           >
-            Página 3
+            hola
           </a>
         </Link>
 
@@ -52,7 +52,15 @@ const Layout = ({ children, pageId }) => {
             className={pageId === "page4" ? "currentPage" : ""}
             onClick={incrementViews}
           >
-            To-Do
+            hola
+          </a>
+        </Link>
+        <Link href="/linea1">
+          <a
+            className={pageId === "linea1" ? "currentPage" : ""}
+            onClick={incrementViews}
+          >
+            Linea 1
           </a>
         </Link>
         <ViewCount count={nViews} reset={resetViews} />
