@@ -1,28 +1,14 @@
-import React from 'react';
-import loco from './loco';
+// CSS para toda la aplicación
 import "../styles/style.css";
-//import "../components/scss/layout.scss";
-//import PublicRoutes from './routes/pulic.routes';
-import MainContainerLayout from '../components/main-container.layout';
-import HeaderLayout from '../components/header.layout'
-import LeftNavLayout from '../components/left-nev.layout';
-import FooterLayout from '../components/footer.layout';
-import MainContent from '../components/main-content.layout';
-import MainContentLayout from '../components/main-content.layout';
-import Script from "next/script";
+import { ChakraProvider } from "@chakra-ui/react";
 
-function app(){
-    return(
-        <MainContainerLayout >
-            <HeaderLayout/>
-            <LeftNavLayout/>
-            <MainContentLayout>
-            {/*<pivateRoutes props={props}/> */}
-            </MainContentLayout>
-            <FooterLayout/>
-        </MainContainerLayout>
-        
+// Codigo aqui estará presente en todas las páginas
+const App = ({ Component, pageProps }) => {
+    return (
+    <ChakraProvider>
+    <Component {...pageProps} />
+    </ChakraProvider>
+);
+};
 
-    );
-}
-export default app;
+export default App;

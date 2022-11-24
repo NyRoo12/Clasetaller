@@ -1,7 +1,8 @@
 
 import{
     Button,
-    box
+    box,
+    Link
 }
 
 from "@chakra-ui/react";
@@ -12,6 +13,9 @@ const FooterLayout=()=>{
     return(
         <footer className="dsc-footer">
             <h6 className="text-inverse text-center">kasus inc</h6>
+            <Link href="/linea1">
+            awdawd
+            </Link>
         </footer>
     )
 }
