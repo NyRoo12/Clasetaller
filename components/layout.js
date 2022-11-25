@@ -27,14 +27,6 @@ const Layout = ({ children}) => {
           </a>
         </Link>
 
-        <Link href="/page3">
-          <a
-            
-          >
-            hola
-          </a>
-        </Link>
-
         <Link href="/pageList">
           <a
           
