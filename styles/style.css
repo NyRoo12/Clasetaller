@@ -200,7 +200,7 @@ code {
   justify-content: center;
   flex-wrap: wrap;
 
-  
+
 }
 
 .card {
@@ -308,8 +308,8 @@ header {
 		bottom: 20px;
 		right: 20px;
     background-position-y: center;
-	}
-  
+}
+
 } 
 .btn-flotante2 {
 	font-size: 13px; /* Cambiar el tamaño de la tipografia */
