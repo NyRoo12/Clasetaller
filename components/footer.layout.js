@@ -18,7 +18,7 @@ const FooterLayout = ({children}) => {
     return(
         
         <footer className="dsc-footer">
-        Kasus .inc
+        Kasus.inc
         </footer>
         
     )

@@ -5,6 +5,7 @@ import{
     pageId,
     data,
     children,
+    Center
 }
 
 from "@chakra-ui/react";
