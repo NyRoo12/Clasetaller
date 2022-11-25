@@ -24,15 +24,7 @@ import Script from "next/script";
 const hola = "aaaa";
 const handleClick = (hola) => {
 const Layout = ({ children, pageId }) => {
-<Link href="/linea1">
-    
-        <a
-            className={pageId === "linea1" ? "currentPage" : ""}
-            
-        >
-            Linea 1
-        </a>
-        </Link>
+
 }
 };
 

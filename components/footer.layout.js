@@ -2,21 +2,25 @@
 import{
     Button,
     box,
-    Link
+    pageId,
+    data,
+    children
 }
 
 from "@chakra-ui/react";
+import Link from "next/link";
+import Head from "next/head";
 import { chakra, Grid } from "@chakra-ui/react";
-import React from "react";
 
-const FooterLayout=()=>{
+
+
+const FooterLayout = ({children}) => {
     return(
+        
         <footer className="dsc-footer">
-            <h6 className="text-inverse text-center">kasus inc</h6>
-            <Link href="/linea1">
-            awdawd
-            </Link>
+        Kasus .inc
         </footer>
+        
     )
 }
 export default FooterLayout;
