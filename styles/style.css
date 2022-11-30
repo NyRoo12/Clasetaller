@@ -100,12 +100,13 @@ max-width: 1330px;
 
 c {
   height: 700px;
-  width: 150px;
+  width: 220px;
   grid-column: 2;
   grid-column: 1;
   background: rgba(98, 208, 218, 0.9);
   
   float: left;
+  position:relative;
 }
 .menu {
   display: flex;
@@ -272,6 +273,7 @@ header {
   letter-spacing: 9px;
   height: 34px;
   padding-left: 20px;
+  position:relative;
   
   
 
@@ -287,8 +289,13 @@ header {
 	background-color: #E91E63; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
 	position: fixed;
+<<<<<<< HEAD
   top: 40PX;
   left: 30px;
+=======
+  
+  left: 50px;
+>>>>>>> b8cdde3c7fe6ea39e1412a3121ccf2d5a18a4b91
 	transition: all 300ms ease 0ms;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 	z-index: 99;

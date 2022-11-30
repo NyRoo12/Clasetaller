@@ -29,6 +29,11 @@ const MainContentLayout=({children})=>{
     return(
         <b className="dsc-main-content">
         <div className="main">
+<<<<<<< HEAD
+=======
+            <a href="/linea9" class="btn-flotante" >Linea9</a>
+            <a href="/linea2"  class="btn-flotante2" >Linea2</a>
+>>>>>>> b8cdde3c7fe6ea39e1412a3121ccf2d5a18a4b91
             {children}
         </div>
         <a  class="btn-flotante" onClick={onOpen}>LINEAS </a>
