@@ -13,7 +13,6 @@ import Link from "next/link";
 
 const ola=({children})=>{
     return(
-        
         <MainContainerLayout >
             <HeaderLayout/>
             <LeftNavLayout/>
