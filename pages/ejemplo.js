@@ -76,7 +76,7 @@ return (
         <DrawerOverlay />
         <DrawerContent >
         <DrawerCloseButton />
-        <DrawerHeader>LINEAS</DrawerHeader>
+        <DrawerHeader>ejemplo</DrawerHeader>
 
         <FormControl display='flex' alignItems='center' left='5%'>
             <FormLabel mb='0' color='black'>

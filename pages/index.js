@@ -11,19 +11,19 @@ import Head from "next/head";
 import Link from "next/link";
 
 
-const ola=({children})=>{
-    return(
-        
+const ola = ({ children }) => {
+    return (
+
         <MainContainerLayout >
-            <HeaderLayout/>
-            <LeftNavLayout/>
+            <HeaderLayout />
+            
             <MainContentLayout>
-            {children}
-            {/*<pivateRoutes props={props}/> */}
+                {children}
+                {/*<pivateRoutes props={props}/> */}
             </MainContentLayout>
-            <FooterLayout/>
+            <FooterLayout />
         </MainContainerLayout>
-        
+
 
     );
 }

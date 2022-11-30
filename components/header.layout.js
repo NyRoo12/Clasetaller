@@ -11,7 +11,6 @@ const HeaderLayout=()=>{
     return(
         
         <header className="dsc-header">
-        
             KASUS 
         
         </header>
