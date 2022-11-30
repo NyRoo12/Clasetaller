@@ -11,14 +11,9 @@ import Head from "next/head";
 import Link from "next/link";
 
 
-<<<<<<< HEAD
 const ola = ({ children }) => {
     return (
 
-=======
-const ola=({children})=>{
-    return(
->>>>>>> b8cdde3c7fe6ea39e1412a3121ccf2d5a18a4b91
         <MainContainerLayout >
             <HeaderLayout />
             
