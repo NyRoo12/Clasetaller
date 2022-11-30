@@ -8,9 +8,9 @@ import Link from 'next/link'
 import Layout from '../pages/index'
 
 
-export default function linea1() {
+export default function linea20() {
     return (
-    <Layout pageId="linea2">
+    <Layout pageId="linea20">
     <Head>
         <title>Linea 1</title>
     </Head>
