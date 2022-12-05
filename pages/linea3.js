@@ -12,7 +12,7 @@ export default function linea3() {
     return (
     <Layout pageId="linea3">
     <Head>
-        <title>Linea 1</title>
+        <title>Linea 3</title>
     </Head>
     <Center  height="700" bg='white.500' border='2px' borderColor='black' width='1630px'>
         

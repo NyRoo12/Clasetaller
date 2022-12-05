@@ -46,13 +46,13 @@ const MainContentLayout=({children})=>{
         <br></br>
         <a href="/linea2"  class="btn-flotante2" >Linea2</a>
         <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea2</a>
+        <a href="/linea2"  class="btn-flotante2" >Linea3</a>
         <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea2</a>
+        <a href="/linea2"  class="btn-flotante2" >Linea4</a>
         <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea2</a>
+        <a href="/linea2"  class="btn-flotante2" >Linea5</a>
         <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea2</a>
+        <a href="/linea2"  class="btn-flotante2" >Linea9</a>
         <DrawerCloseButton />
         <DrawerFooter>
         </DrawerFooter>
