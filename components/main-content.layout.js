@@ -46,7 +46,6 @@ const MainContentLayout=({children})=>{
         <br></br>
         <a href="/linea2"  class="btn-flotante2" >Linea2</a>
         <br></br>
-<<<<<<< HEAD
         <a href="/linea3"  class="btn-flotante2" >Linea3</a>
         <br></br>
         <a href="/linea4"  class="btn-flotante2" >Linea4</a>
@@ -58,15 +57,7 @@ const MainContentLayout=({children})=>{
         <a href="/linea11"  class="btn-flotante2" >Linea11</a>
         <br></br>
         <a href="/linea20"  class="btn-flotante2" >Linea20</a>
-=======
-        <a href="/linea2"  class="btn-flotante2" >Linea3</a>
-        <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea4</a>
-        <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea5</a>
-        <br></br>
-        <a href="/linea2"  class="btn-flotante2" >Linea9</a>
->>>>>>> c2b34709bcb34e8f99bbf76e733e4f57ecd346ca
+        
         <DrawerCloseButton />
         <DrawerFooter>
         </DrawerFooter>
