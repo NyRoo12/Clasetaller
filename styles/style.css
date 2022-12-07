@@ -100,12 +100,13 @@ max-width: 1330px;
 
 c {
   height: 700px;
-  width: 150px;
+  width: 220px;
   grid-column: 2;
   grid-column: 1;
   background: rgba(98, 208, 218, 0.9);
   
   float: left;
+  position:relative;
 }
 .menu {
   display: flex;
@@ -274,7 +275,6 @@ header {
   padding-left: 20px;
   
   
-
 }
 
 .btn-flotante {

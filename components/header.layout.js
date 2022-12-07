@@ -1,7 +1,9 @@
 import{
     Button,
     box,
-    Spacer
+    Spacer,
+    
+    
 }
 
 from "@chakra-ui/react";
@@ -12,8 +14,9 @@ const HeaderLayout=()=>{
         
         <header className="dsc-header">
             KASUS 
-        
+            
         </header>
+        
     )
 }
 export default HeaderLayout;
