@@ -19,6 +19,23 @@ export default function linea2() {
         <box >
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AiBNs-x9n3HNWhWvHE12fNoEfRdAQR0&ehbc=2E312F" width="1481" height="700"  allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </box>
+
+        <div class="promos">  
+        
+        <div class="promo scale">
+        <div class="deal">
+            <span>LINEA</span>
+        </div>
+        <span class="price">Horario: 06:00 - 19:00</span>
+
+        
+        <img src="images/linea1.jpg" width='100%'></img>
+
+        
+        </div>
+        
+
+        </div>
         </Center>
         
             
