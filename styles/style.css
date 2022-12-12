@@ -346,3 +346,197 @@ header {
 	}
 
 }
+.contenedor-botones {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 50px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+.boton.cinco span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+	left: 40%;
+}
+
+.boton.cinco .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton.cinco svg {
+	color: rgb(215, 56, 56);
+	width: 100px;
+	height: 100px;
+}
+
+.boton.cinco:hover {
+	background: #2f9b05;
+}
+
+.boton.cinco:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.boton.cinco:hover span {
+	left: 40px;
+}
+.boton.uno::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #c4b107;
+	position: absolute;
+	z-index: 1;
+	top: -80px;
+	left: 0;
+	transition: .3s ease-in-out all;
+}
+
+.boton.uno:hover::after {
+	top: 0;
+}
+
+.boton.dos::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid #286cff;
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.boton.dos:hover::after {
+	left: 0;
+}
+
+.ventana{
+  background:rgb(239, 235, 215);
+  width: 20%;
+  height: 40%;
+  color: #121213;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 33px;
+  top: 41px;
+  min-height: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(100,100,111,0.3) 0px 7px 29px 0px;
+  border: 3px solid;
+  border-color: rgb(0, 0, 0);
+  position: fixed;
+  right: 8px;
+
+  transition: all 300ms ease 0ms;
+}
+.ventana:hover {
+  
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(3px) translatex(-3px);
+}
+
+
+.cerrar{
+
+  position:absolute;
+  right: 10px;
+  top: 10px;
+
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 6px;
+  color: #080808;
+
+
+}
+.cerrar:hover{
+  background: rgb(215, 212, 198);
+}
+svg{
+  width: 100%;
+  height: 100%;
+}
+
+.Encabezado{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3c4249;
+}
+
+.cuerpo{
+  
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

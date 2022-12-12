@@ -12,7 +12,8 @@ import{
     DrawerContent,
     DrawerCloseButton,
     DrawerHeader,
-    DrawerFooter
+    DrawerFooter,
+    
 }
 
 from "@chakra-ui/react";
@@ -31,7 +32,7 @@ const MainContentLayout=({children})=>{
         <div className="main">
             {children}
         </div>
-        <a  class="btn-flotante" onClick={onOpen}>LINEAS </a>
+        <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
         <Drawer
         isOpen={isOpen}
         placement="left"
@@ -57,8 +58,15 @@ const MainContentLayout=({children})=>{
         <a href="/linea11"  class="btn-flotante2" >Linea11</a>
         <br></br>
         <a href="/linea20"  class="btn-flotante2" >Linea20</a>
+        <br></br><br></br>
         
-        <DrawerCloseButton />
+        <a href="/linea20">
+        <Button w='80%' colorScheme="green" left='5%' left='20px' height='50px'>
+            LINEA 3
+        </Button>
+        </a>
+        
+        <DrawerCloseButton/>
         <DrawerFooter>
         </DrawerFooter>
         </DrawerContent>

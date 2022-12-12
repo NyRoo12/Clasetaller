@@ -13,7 +13,7 @@ const HeaderLayout=()=>{
     return(
         
         <header className="dsc-header">
-            KASUS 
+            KASUS
             
         </header>
         

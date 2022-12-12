@@ -20,6 +20,9 @@ export default function linea2() {
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AiBNs-x9n3HNWhWvHE12fNoEfRdAQR0&ehbc=2E312F" width="1481" height="700"  allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </box>
         </Center>
+        
+            
+
 
     </Layout>
 )
