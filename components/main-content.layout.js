@@ -42,7 +42,7 @@ const MainContentLayout=({children})=>{
     <DrawerOverlay />
         <DrawerContent >
         <DrawerCloseButton />
-        
+
         <br></br>
         <a href="/linea1" class="btn-flotante2" >Linea1</a>
         <br></br>
@@ -61,11 +61,7 @@ const MainContentLayout=({children})=>{
         <a href="/linea20"  class="btn-flotante20" >Linea20</a>
         <br></br><br></br>
         
-        <a href="/linea20">
-        <Button w='80%' colorScheme="green" left='5%' left='20px' height='50px'>
-            LINEA 3
-        </Button>
-        </a>
+        
         
         <DrawerCloseButton/>
         <DrawerFooter>
