@@ -318,7 +318,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #51ee5b; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -326,12 +326,12 @@ header {
   top: 30px;
   left: 23px;
 	
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 8px 15px rgba(186, 171, 171, 0.1);
 	z-index: 99;
   
 }
 .btn-flotante2:hover {
-	background-color: #d9ff52; /* Color de fondo al pasar el cursor */
+	background-color: #eff553; /* Color de fondo al pasar el cursor */
   
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
@@ -352,7 +352,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #51ee5b; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -378,7 +378,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #51ee5b; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -403,7 +403,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #51ee5b; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -416,7 +416,7 @@ header {
   
 }
 .btn-flotante4:hover {
-	background-color: #9e5c1a; /* Color de fondo al pasar el cursor */
+	background-color: #4dec3c; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -428,7 +428,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #828415; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -441,7 +441,7 @@ header {
   
 }
 .btn-flotante5:hover {
-	background-color: #f0fe5a; /* Color de fondo al pasar el cursor */
+	background-color: #6958fe; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -453,7 +453,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #5d72f7; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -466,7 +466,7 @@ header {
   
 }
 .btn-flotante9:hover {
-	background-color: #fe5a5a; /* Color de fondo al pasar el cursor */
+	background-color: #f54af25b; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -477,7 +477,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #4dfff3; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -490,7 +490,7 @@ header {
   
 }
 .btn-flotante11:hover {
-	background-color: #ffe14d; /* Color de fondo al pasar el cursor */
+	background-color: #f7b249; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -502,7 +502,7 @@ header {
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #ffc44d; /* Color de fondo */
+	background-color: #40eee2; /* Color de fondo */
 	padding: 18px 30px; /* Relleno del boton */
   position: relative;
 	width: 80%;
@@ -515,7 +515,7 @@ header {
   
 }
 .btn-flotante20:hover {
-	background-color: #fc7249; /* Color de fondo al pasar el cursor */
+	background-color: #fe5a5a; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -553,19 +553,19 @@ header {
   right: 10px;
   top: 10px;
 
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border: none;
   background: none;
   cursor: pointer;
   transition: .3s ease all;
   border-radius: 6px;
-  color: #080808;
+  color: #ffffff;
 
 
 }
 .cerrar:hover{
-  background: rgb(215, 212, 198);
+  background: rgb(41, 52, 43);
 }
 svg{
   width: 100%;
@@ -587,6 +587,20 @@ svg{
   font-size: 15px;
   text-align: left;
   
+}
+
+.circulo {
+  padding-left: 15px;
+  font-size: 35px;
+  top: 36px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #55b755;
+  position: absolute;
 }
 
 
@@ -641,14 +655,14 @@ html {
   float: left;
 }
 .deal {
-  padding: 10px 0 0 0;
+  padding: 8px 0 0 0;
 }
 .deal span {
   display: block;
   text-align: center;
 }
 .deal span:first-of-type {
-  font-size: 23px;  
+  font-size: 20px;  
 }
 .deal span:last-of-type {
   font-size: 20px;
@@ -656,12 +670,12 @@ html {
 .promo .price {
   display: block;
   width: 100%;  
-  height: 50px;
+  height: 60px;
   background: #292b2e;
-  margin: 15px 0 10px 0;
+  margin: 15px 0 0px 0;
   text-align: center;
-  font-size: px;
-  padding: 17px 0 17px 0;
+  font-size: 15px;
+  padding: 35px 0 17px 0;
 }
 ul {
   display: block;
@@ -684,7 +698,7 @@ li {
   background: #64AAA4;
 }
 .scale .price {
-  color: #64AAA4;
+  color: #4dbcc0;
 }
 
 

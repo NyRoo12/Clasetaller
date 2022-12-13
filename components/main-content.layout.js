@@ -42,7 +42,8 @@ const MainContentLayout=({children})=>{
     <DrawerOverlay />
         <DrawerContent >
         <DrawerCloseButton />
-        <>QUE</>
+        
+        <br></br>
         <a href="/linea1" class="btn-flotante2" >Linea1</a>
         <br></br>
         <a href="/linea2"  class="btn-flotante1" >Linea2</a>
