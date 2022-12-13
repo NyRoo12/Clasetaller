@@ -37,7 +37,7 @@ export default function linea1() {
         {estadoModal1 &&
         
         <div class="promos">  
-
+            
             <div class="promo scale">
             <div class ="cerrar" onClick={()=> cambiarEstadomodal1(false)}>
             <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
@@ -48,8 +48,11 @@ export default function linea1() {
             <div class="deal">
                 <span>LINEA</span>
             </div>
-            <span class="price">Horario: 06:00 - 19:00</span>
-
+            
+            <span class="price">
+            <div>Horario: 06:00 - 19:00</div>
+            <div>Precio TNE: 160$</div>
+            <div>Precio normal: 500$</div></span>
             
             <img src="images/linea1.jpg" width='100%'></img>
 

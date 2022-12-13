@@ -590,10 +590,23 @@ svg{
 }
 
 .circulo {
-  padding-left: 15px;
+  padding-left: 14.5px;
   font-size: 35px;
-  top: 36px;
-  left: 100px;
+  top: 40px;
+  left: 95px;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #55b755;
+  position: absolute;
+}
+.circulo2 {
+  padding-left: 8px;
+  font-size: 30px;
+  top: 40px;
+  left: 95px;
   width: 50px;
   height: 50px;
   -moz-border-radius: 50%;
@@ -649,7 +662,8 @@ html {
   margin-top: 50px;
 }
 .promo {
-  width: 250px;
+  width: 240px;
+  
   background: #0F1012; 
   color: #f9f9f9;
   float: left;
@@ -665,17 +679,19 @@ html {
   font-size: 20px;  
 }
 .deal span:last-of-type {
+  height: 55px;
   font-size: 20px;
 }
 .promo .price {
   display: block;
   width: 100%;  
-  height: 60px;
+  height: 100px;
   background: #292b2e;
-  margin: 15px 0 0px 0;
-  text-align: center;
+  margin: 0px 0 0px 0;
+  text-align:center;
   font-size: 15px;
-  padding: 35px 0 17px 0;
+  padding: 30px 0 17px 0;
+
 }
 ul {
   display: block;
