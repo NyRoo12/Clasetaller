@@ -37,9 +37,13 @@ export default function linea11() {
                 <span>LINEA</span>
             </div>
             <span class="price">
-            <div>Horario: 06:00 - 19:00</div>
+            <div>Horario (lun-vier):</div>
+            <div>06:00 - 19:00</div>
+            <div>Horario (sab-dom):</div>
+            <div>06:00 - 19:00</div>
             <div>Precio TNE: 160$</div>
-            <div>Precio normal: 500$</div></span>
+            <div>Precio normal: 500$</div>
+            </span>
 
             
             <img src="images/linea9.jpg" width='100%'></img>

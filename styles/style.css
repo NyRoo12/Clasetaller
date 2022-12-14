@@ -80,6 +80,7 @@ footer a {
 a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 flotante {
   float: left;
@@ -94,8 +95,6 @@ grid-template-rows: 60px auto 50px;
 height: 700px;
 max-height: 800px;
 max-width: 1330px;
-
-
 }
 
 c {
@@ -272,6 +271,7 @@ header {
   font-weight: bold;
   letter-spacing: 9px;
   height: 34px;
+  width: 100%;
   padding-left: 20px;
   position: relative;
   
@@ -660,10 +660,18 @@ html {
   position: fixed;
   margin: 0 auto;
   margin-top: 50px;
+  transition: all 300ms ease 0ms;
+  
+
+}
+
+.promos:hover {
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(3px) translatex(-3px);
+  
 }
 .promo {
   width: 240px;
-  
   background: #0F1012; 
   color: #f9f9f9;
   float: left;
@@ -679,18 +687,18 @@ html {
   font-size: 20px;  
 }
 .deal span:last-of-type {
-  height: 55px;
+  height: 50px;
   font-size: 20px;
 }
 .promo .price {
   display: block;
   width: 100%;  
-  height: 100px;
+  height: 170px;
   background: #292b2e;
   margin: 0px 0 0px 0;
   text-align:center;
   font-size: 15px;
-  padding: 30px 0 17px 0;
+  padding: 32px 0 17px 0;
 
 }
 ul {
