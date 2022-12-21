@@ -5,7 +5,7 @@ import {
 from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from './cuerpo'
+import Layout from '../pages/cuerpo'
 import { useState } from "react";
 
 

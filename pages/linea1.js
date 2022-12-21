@@ -13,7 +13,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Script from "next/script";
 import { useState } from "react";
-import Layout from './cuerpo'
+import Layout from '../pages/cuerpo'
 
 
 
