@@ -125,6 +125,12 @@ return (
         <Button w='65%' colorScheme="orange" left='5%' onClick={() => handleClick("Linea 1")} >
             Linea 20 T
         </Button>
+        
+        <a href="/linea20">
+        <Button w='80%' colorScheme="green" left='5%' height='50px'>
+            LINEA 3
+        </Button>
+        </a>
 
         <DrawerFooter>
         </DrawerFooter>

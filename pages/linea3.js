@@ -37,10 +37,8 @@ export default function linea3() {
                 <span>LINEA</span>
             </div>
             <span class="price">
-            <div>Horario (lun-vier):</div>
-            <div>06:00 - 19:00</div>
-            <div>Horario (sab-dom):</div>
-            <div>06:00 - 19:00</div>
+            <div>Horario (lun-domg):</div>
+            <div>6:45 - 21:30</div>
             <div>Precio TNE: 160$</div>
             <div>Precio normal: 500$</div>
             </span>
