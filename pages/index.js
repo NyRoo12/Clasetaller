@@ -1,6 +1,6 @@
 import React from "react";
 import Head from 'next/head'
-
+// pagina de bienvenida//
 export default function Index() {
     return (
         <div id="inicio">

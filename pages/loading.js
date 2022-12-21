@@ -1,11 +1,9 @@
 import {
-    Center,
     Link
-    
 }
 from "@chakra-ui/react";
 import React from 'react';
-import Head from 'next/head';
+//pagina de carga con gif//
 
 
 export default function loading() {

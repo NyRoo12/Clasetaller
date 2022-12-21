@@ -1,25 +1,16 @@
 
 import{
-    Button,
-    box,
-    pageId,
-    data,
-    children,
-    Center,
     useDisclosure,
     Drawer,
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
-    DrawerHeader,
     DrawerFooter,
     
 }
 
 from "@chakra-ui/react";
 import Link from "next/link";
-import Head from "next/head";
-import { chakra, Grid } from "@chakra-ui/react";
 import React from "react";
 
 
@@ -28,15 +19,22 @@ const MainContentLayout=({children})=>{
     const btnRef = React.useRef();
 
     return(
+
         <b className="dsc-main-content">
         <div className="main">
             {children}
         </div>
+
         <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
+
         <Link href="/loading">
+
         <img class="circular--square" src="images/Kasus.gif" >
         </img>
+        
         </Link>
+
+
         <Drawer
         isOpen={isOpen}
         placement="left"
