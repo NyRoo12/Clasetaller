@@ -21,6 +21,8 @@ const FooterLayout = ({children}) => {
         Kasus.inc
         </footer>
         
+        
+        
     )
 }
 export default FooterLayout;

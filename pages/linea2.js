@@ -5,7 +5,7 @@ import {
 from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../pages/index'
+import Layout from './cuerpo'
 import { useState } from "react";
 
 
@@ -43,15 +43,13 @@ export default function linea2() {
             <div>Precio normal: 500$</div>
             </span>
 
-            
             <img src="images/linea2.jpg" width='100%'></img>
 
-            
             </div>
-            
 
         </div>
         }
+        
         </Center>
         
             

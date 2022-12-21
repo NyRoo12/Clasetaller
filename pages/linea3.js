@@ -6,7 +6,7 @@ from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from "react";
-import Layout from '../pages/index'
+import Layout from './cuerpo'
 
 
 export default function linea3() {
@@ -21,7 +21,7 @@ export default function linea3() {
         <box >
             <iframe src="https://www.google.com/maps/d/embed?mid=1Rt4YNRhq0ZoFHjdhy9mTklGKg_lhrsQ&ehbc=2E312F" width="1481" height="700"  allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </box>
-
+        
         {estadoModal1 &&
         
         <div class="promos">  

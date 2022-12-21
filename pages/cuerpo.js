@@ -1,25 +1,27 @@
 import React from 'react';
 import MainContainerLayout from '../components/main-container.layout';
 import HeaderLayout from '../components/header.layout'
-import LeftNavLayout from '../components/left-nev.layout';
 import FooterLayout from '../components/footer.layout';
 import MainContentLayout from '../components/main-content.layout';
-import Script from "next/script";
-import { ChakraProvider } from "@chakra-ui/react";
+import Head from 'next/head'
 
 
-function ola(){
-    return(
+const Comienzo = ({ children }) => {
+    return (
+
         <MainContainerLayout >
-            <HeaderLayout/>
-            <LeftNavLayout/>
+            <Head>
+                <title>KaSuS</title>
+            </Head>
+            <HeaderLayout />
+
             <MainContentLayout>
-            {/*<pivateRoutes props={props}/> */}
+                {children}
+            
             </MainContentLayout>
-            <FooterLayout/>
+            <FooterLayout />
         </MainContainerLayout>
-        
 
     );
 }
-export default ola;
+export default Comienzo;
