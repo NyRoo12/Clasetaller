@@ -2,7 +2,7 @@ import{
     Button,
     box,
     Spacer,
-    
+    Flex
     
 }
 
@@ -13,7 +13,14 @@ const HeaderLayout=()=>{
     return(
         
         <header className="dsc-header">
+            <Flex>
             KASUS
+<<<<<<< HEAD
+=======
+            
+            
+            </Flex>
+>>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
         </header>
         
     )

@@ -5,7 +5,7 @@ import {
 from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../pages/index'
+import Layout from '../pages/cuerpo'
 import { useState } from "react";
 
 
@@ -36,17 +36,20 @@ export default function linea2() {
             <div class="deal">
                 <span>LINEA</span>
             </div>
-            <span class="price">Horario: 06:00 - 19:00</span>
+            <span class="price">
+            <div>Horario (Lun-Dom):</div>
+            <div>6:45 - 21:45</div>
+            <div>Precio TNE: 160$</div>
+            <div>Precio normal: 500$</div>
+            </span>
 
-            
-            <img src="images/linea1.jpg" width='100%'></img>
+            <img src="images/linea2.jpg" width='100%'></img>
 
-            
             </div>
-            
 
         </div>
         }
+        
         </Center>
         
             

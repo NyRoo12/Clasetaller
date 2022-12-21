@@ -1,30 +1,25 @@
+import React from "react";
+import Head from 'next/head'
 
-import React from 'react';
-import MainContainerLayout from '../components/main-container.layout';
-import HeaderLayout from '../components/header.layout'
-import LeftNavLayout from '../components/left-nev.layout';
-import FooterLayout from '../components/footer.layout';
-import MainContentLayout from '../components/main-content.layout';
-import Script from "next/script";
-import { ChakraProvider } from "@chakra-ui/react";
-import Head from "next/head";
-import Link from "next/link";
-
-
-const ola = ({ children }) => {
+export default function Index() {
     return (
-
-        <MainContainerLayout >
-            <HeaderLayout />
+        <div id="inicio">
+            <Head>
+                <title>KaSuS</title>
+            </Head>
             
-            <MainContentLayout>
-                {children}
-                {/*<pivateRoutes props={props}/> */}
-            </MainContentLayout>
-            <FooterLayout />
-        </MainContainerLayout>
+            <div class="tkasus">
+                KASUS
+            </div>
+            
+            <div class="teslogan">
+                Tu mejor opción de visualización de rutas en Valdivia!
+            </div>
 
+            <box>
+                <a href="/loading" class="btn-flotanteInicio">Empezar </a>
+            </box>
 
-    );
+        </div>
+    )
 }
-export default ola;

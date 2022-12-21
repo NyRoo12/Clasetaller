@@ -80,6 +80,7 @@ footer a {
 a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 flotante {
   float: left;
@@ -94,8 +95,6 @@ grid-template-rows: 60px auto 50px;
 height: 700px;
 max-height: 800px;
 max-width: 1330px;
-
-
 }
 
 c {
@@ -272,6 +271,7 @@ header {
   font-weight: bold;
   letter-spacing: 9px;
   height: 34px;
+  width: 100%;
   padding-left: 20px;
   position: relative;
   
@@ -590,10 +590,23 @@ svg{
 }
 
 .circulo {
-  padding-left: 15px;
+  padding-left: 14.5px;
   font-size: 35px;
-  top: 36px;
-  left: 100px;
+  top: 40px;
+  left: 95px;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #55b755;
+  position: absolute;
+}
+.circulo2 {
+  padding-left: 8px;
+  font-size: 30px;
+  top: 40px;
+  left: 95px;
   width: 50px;
   height: 50px;
   -moz-border-radius: 50%;
@@ -647,9 +660,18 @@ html {
   position: fixed;
   margin: 0 auto;
   margin-top: 50px;
+  transition: all 300ms ease 0ms;
+  
+
+}
+
+.promos:hover {
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(3px) translatex(-3px);
+  
 }
 .promo {
-  width: 250px;
+  width: 240px;
   background: #0F1012; 
   color: #f9f9f9;
   float: left;
@@ -665,17 +687,19 @@ html {
   font-size: 20px;  
 }
 .deal span:last-of-type {
+  height: 50px;
   font-size: 20px;
 }
 .promo .price {
   display: block;
   width: 100%;  
-  height: 60px;
+  height: 130px;
   background: #292b2e;
-  margin: 15px 0 0px 0;
-  text-align: center;
+  margin: 0px 0 0px 0;
+  text-align:center;
   font-size: 15px;
-  padding: 35px 0 17px 0;
+  padding: 32px 0 17px 0;
+
 }
 ul {
   display: block;
@@ -700,6 +724,217 @@ li {
 .scale .price {
   color: #4dbcc0;
 }
+
+<<<<<<< HEAD
+.flechaL{
+  top : 10px;
+  left: 150px;
+  width: 400px;
+  height: 200px;
+  position: fixed;
+}
+
+.texto1{
+  color: #ff0000;
+  top : 330px;
+  left: 440px;
+  width: 180px;
+  height: 200px;
+  position: fixed;
+}
+.flechaR{
+  top : 250px;
+  right: 320px;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+}
+
+.fondo{
+  top : 0px;
+  left: 0px;
+  width: 1481px;
+  height: 200px;
+  position: relative;
+}
+
+.texto2{
+  color: #ff0000;
+  top : 450px;
+  left: 850px;
+  width: 400px;
+  height: 200px;
+  position: fixed;
+}
+.cuadroblanco1{
+  top : 330px;
+  left: 430px;
+  width: 150px;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  background: white;
+  position: fixed;
+  border: 5px solid #555;
+}
+
+.cuadroblanco2{
+  top : 450px;
+  left: 890px;
+  width: 120px;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  background: white;
+  position: fixed;
+  border: 5px solid #555;
+}
+=======
+.logo1{
+  border-radius: 5px;
+  src: "images/linea1.jpg";
+  
+}
+
+#loading{
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)),
+    url(/images/Kasus.gif) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+.pantalla{
+  height: 100%;
+  width: 100%;
+  left: 120px;
+  grid-column: 2;
+  grid-column: 1;
+  
+  position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#inicio {
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)),
+    url(/images/valdivia.png) no-repeat center center fixed;
+  background-size: cover;
+}
+.tkasus {
+  font-size: 100px;
+  top: 140px;
+  left: 550px;
+  position: fixed;
+  color: #ffffff;
+}
+
+.teslogan {
+  font-size: 30px;
+  top: 330px;
+  left: 350px;
+  position: fixed;
+  color: #ffffff;
+}
+.btn-flotanteInicio {
+  font-size: 13px;/* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase;
+  /* Texto en mayusculas */
+  font-weight: bold;
+  /* Fuente en negrita o bold */
+  color: #ffffff;
+  /* Color del texto */
+  border-radius: 5px;
+  /* Borde del boton */
+  letter-spacing: 2px;
+  /* Espacio entre letras */
+  background-color: #E91E63;
+  /* Color de fondo */
+  padding: 18px 30px;
+  /* Relleno del boton */
+  position: fixed;
+  top: 470px;
+  left: 630px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+
+}
+
+.btn-flotanteInicio:hover {
+  background-color: #2c2fa5;
+  /* Color de fondo al pasar el cursor */
+
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-flotanteInicio {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+    background-position-y: center;
+  }
+}
+
+#img1{
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)),
+    url(/images/kasus_1.gif) no-repeat center center fixed;
+  background-size: cover;
+} 
+
+.circular--square {
+  width: 80px;
+  height: 80px;
+  left: 10px;
+  top: 650px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  position: fixed;
+}
+
+>>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .flechaL{
   top : 10px;
@@ -762,9 +997,6 @@ li {
   position: fixed;
   border: 5px solid #555;
 }
-
-
-
 
 
 
