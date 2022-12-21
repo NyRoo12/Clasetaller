@@ -701,7 +701,67 @@ li {
   color: #4dbcc0;
 }
 
+.flechaL{
+  top : 10px;
+  left: 150px;
+  width: 400px;
+  height: 200px;
+  position: fixed;
+}
 
+.texto1{
+  color: #ff0000;
+  top : 330px;
+  left: 440px;
+  width: 180px;
+  height: 200px;
+  position: fixed;
+}
+.flechaR{
+  top : 250px;
+  right: 320px;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+}
+
+.fondo{
+  top : 0px;
+  left: 0px;
+  width: 1481px;
+  height: 200px;
+  position: relative;
+}
+
+.texto2{
+  color: #ff0000;
+  top : 450px;
+  left: 850px;
+  width: 400px;
+  height: 200px;
+  position: fixed;
+}
+.cuadroblanco1{
+  top : 330px;
+  left: 430px;
+  width: 150px;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  background: white;
+  position: fixed;
+  border: 5px solid #555;
+}
+
+.cuadroblanco2{
+  top : 450px;
+  left: 890px;
+  width: 120px;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  background: white;
+  position: fixed;
+  border: 5px solid #555;
+}
 
 
 
