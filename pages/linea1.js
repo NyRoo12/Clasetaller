@@ -48,10 +48,8 @@ export default function linea1() {
             </div>
             
             <span class="price">
-            <div>Horario (lun-vier):</div>
-            <div>06:00 - 19:00</div>
-            <div>Horario (sab-dom):</div>
-            <div>06:00 - 19:00</div>
+            <div>Horario (Lun-Dom):</div>
+            <div>06:45 - 21:45</div>
             <div>Precio TNE: 160$</div>
             <div>Precio normal: 500$</div>
             

@@ -7,7 +7,7 @@ export default function Index() {
             <Head>
                 <title>KaSuS</title>
             </Head>
-            <div id="inicio" > </div>
+            
             <div class="tkasus">
                 KASUS
             </div>
@@ -17,7 +17,7 @@ export default function Index() {
             </div>
 
             <box>
-                <a href="/inicio" class="btn-flotanteInicio">Empezar </a>
+                <a href="/loading" class="btn-flotanteInicio">Empezar </a>
             </box>
 
         </div>

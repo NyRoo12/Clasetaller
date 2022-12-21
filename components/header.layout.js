@@ -15,8 +15,7 @@ const HeaderLayout=()=>{
         <header className="dsc-header">
             <Flex>
             KASUS
-            <img src="images/Kasus.gif" width='40px' height='40px'>
-            </img>
+            
             
             </Flex>
         </header>

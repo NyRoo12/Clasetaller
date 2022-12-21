@@ -33,6 +33,10 @@ const MainContentLayout=({children})=>{
             {children}
         </div>
         <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
+        <Link href="/loading">
+        <img class="circular--square" src="images/kasus.gif" >
+        </img>
+        </Link>
         <Drawer
         isOpen={isOpen}
         placement="left"

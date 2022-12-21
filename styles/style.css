@@ -693,7 +693,7 @@ html {
 .promo .price {
   display: block;
   width: 100%;  
-  height: 170px;
+  height: 130px;
   background: #292b2e;
   margin: 0px 0 0px 0;
   text-align:center;
@@ -823,6 +823,26 @@ li {
     background-position-y: center;
   }
 }
+
+#img1{
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)),
+    url(/images/kasus_1.gif) no-repeat center center fixed;
+  background-size: cover;
+} 
+
+.circular--square {
+  width: 80px;
+  height: 80px;
+  left: 10px;
+  top: 650px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  position: fixed;
+}
+
 
 
 

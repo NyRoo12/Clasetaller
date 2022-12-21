@@ -37,7 +37,7 @@ export default function linea11() {
                 <span>LINEA</span>
             </div>
             <span class="price">
-            <div>Horario (lun-dom):</div>
+            <div>Horario (Lun-Dom):</div>
             <div>7:00 - 21:30</div>
             <div>Precio TNE: 160$</div>
             <div>Precio normal: 500$</div>
