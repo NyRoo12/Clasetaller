@@ -14,7 +14,7 @@ export default function Page1() {
         src="/images/eye.png"
         height={294} // Desired size with correct aspect ratio
         width={470} // Desired size with correct aspect ratio
-        alt="ojo"
+        alt="ojoooo"
       />
     </Layout>
   );
