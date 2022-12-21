@@ -6,7 +6,7 @@ from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from "react";
-import Layout from '../pages/index'
+import Layout from '../pages/cuerpo'
 
 
 export default function linea20() {
