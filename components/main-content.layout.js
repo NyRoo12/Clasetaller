@@ -34,16 +34,11 @@ const MainContentLayout=({children})=>{
         <div className="main">
             {children}
         </div>
-<<<<<<< HEAD
-        <a class="btn-flotante" onClick={onOpen}>LINEAS</a>
-        
-=======
         <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
         <Link href="/loading">
         <img class="circular--square" src="images/Kasus.gif" >
         </img>
         </Link>
->>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
         <Drawer
         isOpen={isOpen}
         placement="left"
@@ -69,25 +64,10 @@ const MainContentLayout=({children})=>{
         <br></br>
         <a href="/linea11"  class="btn-flotante11" >Linea 11</a>
         <br></br>
-<<<<<<< HEAD
-        <a href="/linea20"  class="btn-flotante20" >Linea20</a>
-        <br></br>
-        <br></br>
-        <a href="/lineaxd"  class="btn-flotante20" >Lineaasdfasfasdf</a>
-        <br></br>
-
-        
-        <a href="/linea20">
-        <Button w='80%' colorScheme="green" left='5%' height='50px'>
-            LINEA 3
-        </Button>
-        </a>
-=======
         <a href="/linea20"  class="btn-flotante20" >Linea 20</a>
         <br></br><br></br>
         
         
->>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
         
         <DrawerCloseButton/>
         <DrawerFooter>

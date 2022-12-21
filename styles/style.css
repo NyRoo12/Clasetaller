@@ -618,37 +618,6 @@ svg{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 html {
   background: rgb(246, 248, 248);
@@ -725,7 +694,6 @@ li {
   color: #4dbcc0;
 }
 
-<<<<<<< HEAD
 .flechaL{
   top : 10px;
   left: 150px;
@@ -787,7 +755,7 @@ li {
   position: fixed;
   border: 5px solid #555;
 }
-=======
+
 .logo1{
   border-radius: 5px;
   src: "images/linea1.jpg";
@@ -906,35 +874,6 @@ li {
   position: fixed;
 }
 
->>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .flechaL{
   top : 10px;
@@ -984,7 +923,7 @@ li {
   color: rgb(0, 0, 0);
   background: white;
   position: fixed;
-  border: 5px solid #555;
+  border-radius: 30px;
 }
 
 .cuadroblanco2{
@@ -993,9 +932,9 @@ li {
   width: 120px;
   height: 100px;
   color: rgb(0, 0, 0);
-  background: white;
+  background: greenyellow;
   position: fixed;
-  border: 5px solid #555;
+  border-radius: 30px;
 }
 
 
