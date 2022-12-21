@@ -34,7 +34,7 @@ const MainContentLayout=({children})=>{
         </div>
         <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
         <Link href="/loading">
-        <img class="circular--square" src="images/kasus.gif" >
+        <img class="circular--square" src="images/Kasus.gif" >
         </img>
         </Link>
         <Drawer
