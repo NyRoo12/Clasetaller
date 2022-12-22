@@ -1,9 +1,6 @@
 import { React } from 'react';
 import {Polyline, GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
 import credentials from './credentials';
-import { useState } from "react";
-import { color } from '@chakra-ui/react';
-
 
 export default function MapView() {
     const { isLoaded } = useLoadScript({
@@ -13,7 +10,6 @@ export default function MapView() {
     return <Map />;
 
 }
-
 function Map() {
     
 
@@ -142,36 +138,15 @@ function Map() {
             center={center}
             mapContainerClassName="map-container"
             mapTypeId='roadmap'
-            markers={[{ lat: -39.843094, lng: -73.228876},{lat:-39.806889, lng:-73.252023}]}
         >
-            <Polyline
-                onLoad={onLoad}
-                path={path}
-                options={options}
-            />
-            <Marker 
-            title="INICIO"
-            icon={{
-                
-                path:
-                "M8 12l-4.7023 2.4721.898-5.236L.3916 5.5279l5.2574-.764L8 0l2.3511 4.764 5.2574.7639-3.8043 3.7082.898 5.236z",
-                fillColor: "yellow",
-                fillOpacity: 0.9,
-                scale: 2,
-                strokeColor: "gold",
-                strokeWeight: 2,
-            }}
-            position={{ lat: -39.86932955955784, lng: -73.18675730429622 }}
-            animation="BOUNCE"
-            />
-            <Marker 
-            label="FINAL"
-            position={{lat:-39.806889, lng:-73.252023}}
-            animation="DROP"
+            <DirectionsRenderer
+                directions={directions}
+                options={{
+                    polylineOptions: { options },
+                    markerOptions: { opacity: 0.0 }
+                }}
+
             />
         </GoogleMap>
-        
-
     )
 }
-
