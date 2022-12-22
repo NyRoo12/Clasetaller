@@ -881,22 +881,22 @@ li {
   width: 400px;
   height: 200px;
   position: fixed;
+  animation-name: miAnimacionflechaL;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
 }
 
-.texto1{
-  color: #ff0000;
-  top : 330px;
-  left: 440px;
-  width: 180px;
-  height: 200px;
-  position: fixed;
-}
 .flechaR{
   top : 250px;
   right: 320px;
   width: 200px;
   height: 200px;
   position: fixed;
+  animation-name: miAnimacionflechaR;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
 }
 
 .fondo{
@@ -907,35 +907,57 @@ li {
   position: relative;
 }
 
-.texto2{
-  color: #ff0000;
-  top : 450px;
-  left: 850px;
-  width: 400px;
-  height: 200px;
-  position: fixed;
-}
 .cuadroblanco1{
   top : 330px;
   left: 430px;
-  width: 150px;
+  width: 170px;
   height: 100px;
   color: rgb(0, 0, 0);
-  background: white;
+  background: greenyellow;
   position: fixed;
   border-radius: 30px;
+  transition: all 1s;
+}
+.cuadroblanco1:hover {
+  /* Establece las propiedades finales del elemento */
+  background-color: red;
+  width: 170px;
+  height: 100px;
 }
 
 .cuadroblanco2{
   top : 450px;
-  left: 890px;
+  left: 920px;
   width: 120px;
   height: 100px;
   color: rgb(0, 0, 0);
   background: greenyellow;
   position: fixed;
   border-radius: 30px;
+  transition: all 1s;
 }
+.cuadroblanco2:hover {
+  /* Establece las propiedades finales del elemento */
+  background-color: red;
+  width: 120px;
+  height: 100px;
+}
+
+@keyframes miAnimacion {
+  from {transition: rotate(0deg);}
+  to {transition: rotate(360deg);}
+}
+
+@keyframes miAnimacionflechaR{
+  from{transform: translate(0px, 0%);}
+  to{transform: translate(20px, 0%);}
+}
+
+@keyframes miAnimacionflechaL{
+  from{transform: translate(0px, 0%);}
+  to{transform: translate(20px, 0%);}
+}
+
 
 
 

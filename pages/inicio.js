@@ -24,15 +24,11 @@ export default function inicio() {
         </div>
 
         <div class = 'cuadroblanco1'>
-            muestra las lineas de micro que hay en valdivia
+            ㅤMuestra las lineas de micro que hay en valdivia
         </div>
 
         <div class = 'flechaL'   >
             <img src='images\flechaxd.png' />
-        </div>
-
-        <div class = 'texto1' >
-
         </div>
 
         <div class = 'flechaR' >
@@ -40,7 +36,7 @@ export default function inicio() {
         </div>
 
         <div class = 'cuadroblanco2' >
-            muestra informacion de las micros
+        ㅤMuestra ㅤinformacion de las micros
         </div>
 
         <div class="promos">
@@ -56,7 +52,6 @@ export default function inicio() {
                 <span>LINEA</span>
             </div>
             <span class="price">Horario: 06:00 - 19:00</span>
-
 
             <img src="images/linea1.jpg" width='100%'></img>
 
