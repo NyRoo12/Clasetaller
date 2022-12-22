@@ -27,11 +27,11 @@ const MainContentLayout=({children})=>{
 
         <a class="btn-flotante" onClick={onOpen}>LINEAS </a>
 
-        <Link href="/loading">
+        <Link href="/EasterEgg">
 
         <img class="circular--square" src="images/Kasus.gif" >
         </img>
-        
+
         </Link>
 
 

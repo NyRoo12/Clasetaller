@@ -11,8 +11,6 @@ const HeaderLayout=()=>{
         <header className="dsc-header">
             <Flex>
             KASUS
-            
-            
             </Flex>
         </header>
         
