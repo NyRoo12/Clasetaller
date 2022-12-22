@@ -716,6 +716,13 @@ li {
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate; 
+  transition: all 1s;
+}
+
+.flechaL:hover {
+  /* Establece las propiedades finales del elemento */
+  width: 415px;
+  height: 210px;
 }
 
 .flechaR{
@@ -727,7 +734,14 @@ li {
   animation-name: miAnimacionflechaR;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-direction: alternate; 
+  animation-direction: alternate;
+  transition: all 1s; 
+}
+
+.flechaR:hover {
+  /* Establece las propiedades finales del elemento */
+  width: 220px;
+  height: 210px;
 }
 
 .fondo{
@@ -747,6 +761,7 @@ li {
   background: greenyellow;
   position: fixed;
   border-radius: 30px;
+  border: solid 5px rgb(75, 75, 75);
   transition: all 1s;
 }
 .cuadroblanco1:hover {
@@ -765,6 +780,7 @@ li {
   background: greenyellow;
   position: fixed;
   border-radius: 30px;
+  border: solid 5px rgb(75, 75, 75);
   transition: all 1s;
 }
 .cuadroblanco2:hover {
