@@ -51,7 +51,6 @@ export default function linea3() {
 
         </div>
         }
->>>>>>> 8fe37f7d144a87c30f41fcd1a06b411cf917f5cc
         </Center>
 
     </Layout>
