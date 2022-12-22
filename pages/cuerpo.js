@@ -5,7 +5,7 @@ import FooterLayout from '../components/footer.layout';
 import MainContentLayout from '../components/main-content.layout';
 import Head from 'next/head'
 
-
+//estructura de la pagina//
 const Comienzo = ({ children }) => {
     return (
 

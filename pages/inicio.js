@@ -1,20 +1,7 @@
-import {
-    Center,
-    Spacer,
-    Drawer,
-    DrawerOverlay,
-    DrawerContent,
-    DrawerCloseButton,
-    DrawerHeader,
-    DrawerFooter,
-}
-from "@chakra-ui/react";
-import Head from 'next/head'
-import Link from 'next/link'
-import Script from "next/script";
+
 import { useState } from "react";
 import Layout from './cuerpo'
-
+//pagina de presentacion//
 export default function inicio() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
     return (

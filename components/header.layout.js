@@ -1,9 +1,5 @@
 import{
-    Button,
-    box,
-    Spacer,
-    Flex
-    
+    Flex  
 }
 
 from "@chakra-ui/react";
@@ -15,8 +11,6 @@ const HeaderLayout=()=>{
         <header className="dsc-header">
             <Flex>
             KASUS
-            
-            
             </Flex>
         </header>
         
