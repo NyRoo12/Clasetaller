@@ -17,7 +17,7 @@ export default function linea4() {
     <Head>
         <title>Linea 4</title>
     </Head>
-    <Center  height="700" bg='white.500' border='2px' borderColor='black' width='1481px'>
+    <Center  height="700" bg='white.500'  width='1481px'>
         
         <MapView/> 
         {estadoModal1 &&

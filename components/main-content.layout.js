@@ -21,6 +21,7 @@ const MainContentLayout=({children})=>{
     return(
 
         <b className="dsc-main-content">
+        
         <div className="main">
             {children}
         </div>
