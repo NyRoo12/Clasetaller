@@ -693,6 +693,12 @@ li {
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   position: fixed;
+  transition: all 1s; 
+}
+.circular--square:hover {
+  /* Establece las propiedades finales del elemento */
+  width: 90px;
+  height: 90px;
 }
 
 
@@ -713,7 +719,7 @@ li {
   height: 200px;
   position: fixed;
   animation-name: miAnimacionflechaL;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate; 
   transition: all 1s;
@@ -732,7 +738,7 @@ li {
   height: 200px;
   position: fixed;
   animation-name: miAnimacionflechaR;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   transition: all 1s; 
@@ -751,6 +757,7 @@ li {
   height: 200px;
   position: relative;
 }
+
 
 .cuadroblanco1{
   top : 330px;
@@ -797,12 +804,12 @@ li {
 
 @keyframes miAnimacionflechaR{
   from{transform: translate(0px, 0%);}
-  to{transform: translate(20px, 0%);}
+  to{transform: translate(10px, 0%);}
 }
 
 @keyframes miAnimacionflechaL{
   from{transform: translate(0px, 0%);}
-  to{transform: translate(20px, 0%);}
+  to{transform: translate(10px, 0%);}
 }
 
 .map-container {

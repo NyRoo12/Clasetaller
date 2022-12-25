@@ -5,7 +5,7 @@ from "@chakra-ui/react";
 import Head from 'next/head'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapView from '../components/MapViewPrueba';
+import MapView from '../components/MapView';
 import MostarLineas from '../components/MapViewPrueba';
 
 
