@@ -7,44 +7,20 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapView from '../components/MapView9Ida';
-import MapView1 from '../components/MapView9Vuelta';
+import MapView from '../components/MapView'
 
-export default function linea11() {
+
+export default function linea20() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
-    const[ida, cambiarida] = useState(false);
-    const[vuelta, cambiarvuelta] = useState(false);
     return (
-    <Layout pageId="linea11">
+    <Layout pageId="linea20">
     <Head>
-        <title>Linea 9</title>
+        <title>Linea 20</title>
     </Head>
     <Center  height="700" bg='white.500'  width='1481px'>
         
-    <a  class="botonida" onClick={()=> {
-            cambiarida(true)
-            cambiarvuelta(false)
-            }} >
+    <MapView/> 
 
-            ida
-        </a>
-
-        <a  class="botonvuelta" onClick={()=> {
-            cambiarvuelta(true)
-            cambiarida(false)
-            }}>
-
-            vuelta
-        </a>
-
-        {ida &&
-            <MapView/> 
-        }
-        
-        {vuelta &&
-            <MapView1/>
-        }
-        
         {estadoModal1 &&
         
         <div class="promos">  
@@ -55,19 +31,19 @@ export default function linea11() {
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
             </div>
-            <div class="circulo"> 9 </div>
+            <div class="circulo2" > 20 </div>
             <div class="deal">
                 <span>LINEA</span>
             </div>
             <span class="price">
             <div>Horario (Lun-Dom):</div>
-            <div>6:45 - 21:45</div>
+            <div>7:00 - 21:30</div>
             <div>Precio TNE: 160$</div>
             <div>Precio normal: 500$</div>
             </span>
 
             
-            <img src="images/linea9.jpg" width='100%'></img>
+            <img src="images/linea20.jpg" width='100%'></img>
 
             
             </div>

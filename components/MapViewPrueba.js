@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useMemo } from 'react';
 import {Polyline, GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
 import credentials from './credentials';
 import { useState } from "react";
@@ -23,7 +23,7 @@ function Map() {
     
     const[mostrar, cambiarmapa] = useState(true);
     const[mostrar2, cambiarmapa2] = useState(true);
-    const center = { lat: -39.843094, lng: -73.228876};
+    const center = useMemo(()=>({lat: -39.8239, lng: -73.2458}),[]);
 
     const onLoad = polyline => {
         console.log('polyline: ', polyline)

@@ -806,3 +806,42 @@ li {
   color: #ffffff;
 }
 
+.botonida{
+  font-size: 10px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #40eee2; /* Color de fondo */
+	padding: 12px 30px; /* Relleno del boton */
+  position: relative;
+	width: 6%;
+  height: 5%;
+	
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+  left: 30px;
+  top: 150px;
+  position:fixed;
+}
+.botonvuelta{
+  font-size: 10px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #63ee40; /* Color de fondo */
+	padding: 12px 20px; /* Relleno del boton */
+  position: relative;
+	width: 6%;
+  height: 5%;
+  
+	
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+  left: 30px;
+  top: 190px;
+  position:fixed;
+}

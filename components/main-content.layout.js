@@ -62,6 +62,8 @@ const MainContentLayout=({children})=>{
         <a href="/linea11"  class="btn-flotante11" >Linea 11</a>
         <br></br>
         <a href="/linea20"  class="btn-flotante20" >Linea 20</a>
+        <br></br>
+        <a href="/linea20"  class="btn-flotante20" >Linea 20 R</a>
         <br></br><br></br>
         
         

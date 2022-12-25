@@ -1,25 +1,56 @@
 import {
     Center,
-    Spacer
+    Spacer,
+    Grid,
+    Button
 }
 from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapView from '../components/MapView';
+import MapView from '../components/MapView4Ida';
+import MapView1 from '../components/MapView4Vuelta';
+
+
+
 
 
 export default function linea4() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
+    const[ida, cambiarida] = useState(false);
+    const[vuelta, cambiarvuelta] = useState(false);
     return (
     <Layout pageId="linea4">
     <Head>
         <title>Linea 4</title>
     </Head>
     <Center  height="700" bg='white.500'  width='1481px'>
+    
+        <a  class="botonida" onClick={()=> {
+            cambiarida(true)
+            cambiarvuelta(false)
+            }} >
+
+            ida
+        </a>
+
+        <a  class="botonvuelta" onClick={()=> {
+            cambiarvuelta(true)
+            cambiarida(false)
+            }}>
+
+            vuelta
+        </a>
+
+        {ida &&
+            <MapView/> 
+        }
         
-        <MapView/> 
+        {vuelta &&
+            <MapView1/>
+        }
+
         {estadoModal1 &&
         
         <div class="promos">  
