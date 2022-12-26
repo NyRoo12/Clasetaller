@@ -8,21 +8,20 @@ import {
 import Head from 'next/head'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapViewI from '../components/MapView11Ida'
-import MapViewV from '../components/MapView11Vuelta'
+import MapViewI from '../components/MapView20pIda'
+import MapViewV from '../components/MapView20pVuelta'
 
 
-export default function linea11() {
+export default function linea20() {
     const [estadoModal1, cambiarEstadomodal1] = useState(true);
     const [isEnabled, setIsEnabled] = useState(true);
     const toggleSwitch = () => { setIsEnabled(!isEnabled) }
     return (
-        <Layout pageId="linea11">
+        <Layout pageId="linea20">
             <Head>
-                <title>Linea 11</title>
+                <title>Linea 20</title>
             </Head>
             <Center height="700" bg='white.500' width='1481px'>
-
                 {isEnabled &&
                     <MapViewI />
 
@@ -65,7 +64,7 @@ export default function linea11() {
                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
                                 </svg>
                             </div>
-                            <div class="circulo2"> 11 </div>
+                            <div class="circulo2" > 20 </div>
                             <div class="deal">
                                 <span>LINEA</span>
                             </div>
@@ -77,7 +76,7 @@ export default function linea11() {
                             </span>
 
 
-                            <img src="images/linea11.jpg" width='100%'></img>
+                            <img src="images/linea20.jpg" width='100%'></img>
 
 
                         </div>
