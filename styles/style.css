@@ -807,12 +807,12 @@ li {
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   position: fixed;
-  transition: all 1s; 
+  transition: all 0.5s; 
 }
 .circular--square:hover {
   /* Establece las propiedades finales del elemento */
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
 }
 
 
