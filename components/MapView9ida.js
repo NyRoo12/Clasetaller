@@ -13,6 +13,7 @@ export default function MapView() {
 
 function Map() {
 
+    //cambio nombre
     const center = useMemo(() => ({ lat: -39.8239, lng: -73.2458 }), []);
 
     const options = {
