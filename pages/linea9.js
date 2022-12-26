@@ -8,17 +8,17 @@ import {
 import Head from 'next/head'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapViewI from '../components/MapView9Ida'
+import MapViewI from '../components/MapView9ida'
 import MapViewV from '../components/MapView9Vuelta'
 
-//arreeglao
 
-export default function linea11() {
+
+export default function linea9() {
     const [estadoModal1, cambiarEstadomodal1] = useState(true);
     const [isEnabled, setIsEnabled] = useState(true);
     const toggleSwitch = () => { setIsEnabled(!isEnabled) }
     return (
-        <Layout pageId="linea11">
+        <Layout pageId="linea9">
             <Head>
                 <title>Linea 9</title>
             </Head>

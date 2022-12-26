@@ -84,7 +84,6 @@ function Map() {
             mapContainerClassName="map-container"
             mapTypeId='roadmap'
         >
-
             <DirectionsRenderer
                 directions={directions}
                 options={{
