@@ -12,7 +12,7 @@ import MapViewI from '../components/MapView20RIda'
 import MapViewV from '../components/MapView20RVuelta'
 
 
-export default function linea20() {
+export default function linea20R() {
     const [estadoModal1, cambiarEstadomodal1] = useState(true);
     const [isEnabled, setIsEnabled] = useState(true);
     const toggleSwitch = () => { setIsEnabled(!isEnabled) }
