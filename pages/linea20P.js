@@ -8,8 +8,8 @@ import {
 import Head from 'next/head'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapViewI from '../components/MapView20pIda'
-import MapViewV from '../components/MapView20pVuelta'
+import MapViewI from '../components/MapView20PIda'
+import MapViewV from '../components/MapView20PVuelta'
 
 
 export default function linea20() {
