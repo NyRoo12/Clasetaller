@@ -9,13 +9,7 @@ import {
 
 }
 
-<<<<<<< HEAD
-from "@chakra-ui/react";
-import { Text } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
-=======
     from "@chakra-ui/react";
->>>>>>> f98ad4dc03bbe96b0651f968520b974afc5955cd
 import Link from "next/link";
 import React from "react";
 
