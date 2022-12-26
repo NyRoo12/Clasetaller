@@ -10,14 +10,6 @@ export default function MapView() {
     return <Map />;
 
 }
-<<<<<<< HEAD
-function Map() {
-
-    const center = useMemo(()=>({lat: -39.8239, lng: -73.2458}),[]);
-
-    const options = {
-        strokeColor: 'orange',
-=======
 
 function Map() {
 
@@ -25,7 +17,6 @@ function Map() {
 
     const options = {
         strokeColor: '#3bf851',
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
         strokeOpacity: 1,
         strokeWeight: 4,
         clickable: true,
@@ -55,35 +46,12 @@ function Map() {
                 }, {
                     location: { lat: -39.823256100277334, lng: -73.23263614017618 }
                 }, {
-<<<<<<< HEAD
-                    location: { lat: -39.825505127557854, lng: -73.23219458403611 } 
-=======
                     location: { lat: -39.825505127557854, lng: -73.23219458403611 }
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
                 }, {
                     location: { lat: -39.830214375271396, lng: -73.23932684679957 }
                 }, {
                     location: { lat: -39.83165845169415, lng: -73.23773665084275 }
                 }, {
-<<<<<<< HEAD
-                    location: { lat: -39.832700902746666, lng: -73.23930006831962 } 
-                }, {
-                    location: { lat: -39.83650612189402, lng: -73.23727662017642 } 
-                },{
-                    location: { lat: -39.84507479297024, lng: -73.23218421866312 }
-                },{
-                    location: { lat: -39.84432724643165, lng: -73.22806434568209 }
-                },{
-                    location: { lat: -39.838114201707256, lng: -73.22946001945155 } 
-                },{
-                    location: { lat: -39.83643253323847, lng: -73.219782430481 }  
-                },{
-                    location: { lat: -39.84096325669834, lng: -73.21729808949739 }
-                },{
-                    location: { lat: -39.83524169789292, lng: -73.20589691376615 }
-                },{
-                    location: { lat: -39.82159996850798, lng: -73.21050693404868 }, 
-=======
                     location: { lat: -39.832700902746666, lng: -73.23930006831962 }
                 }, {
                     location: { lat: -39.83650612189402, lng: -73.23727662017642 }
@@ -101,7 +69,6 @@ function Map() {
                     location: { lat: -39.83524169789292, lng: -73.20589691376615 }
                 }, {
                     location: { lat: -39.82159996850798, lng: -73.21050693404868 },
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
                 }
 
             ]
@@ -115,12 +82,8 @@ function Map() {
         },
 
     );
-<<<<<<< HEAD
-return (
-=======
 
     return (
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
         <GoogleMap
 
             zoom={14}
@@ -128,10 +91,6 @@ return (
             mapContainerClassName="map-container"
             mapTypeId='roadmap'
         >
-<<<<<<< HEAD
-=======
-
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
             <DirectionsRenderer
                 directions={directions}
                 options={{
@@ -140,10 +99,6 @@ return (
                 }}
 
             />
-<<<<<<< HEAD
-=======
-
->>>>>>> bb55f505cdaa7c3d9c257395b736529b163092da
         </GoogleMap>
     )
 }
