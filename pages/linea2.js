@@ -30,29 +30,29 @@ export default function linea2() {
         {!isEnabled &&
             <MapView1/> 
         }
-        <FormLabel 
-        htmlFor='isChecked' 
-        position="fixed"
-        top="226px"
-        left="10px"
-        >Ida</FormLabel>
+        <FormLabel
+                    htmlFor='isChecked'
+                    position="fixed"
+                    top="226px"
+                    left="30px"
+                >Ida</FormLabel>
 
 
-        <Switch  colorScheme='red'
-        onChange={toggleSwitch}
-        checked={isEnabled} 
-        label="Secondary"
-        position="fixed"
-        top="230px"
-        left="40px"
-        name="checkedB"
-        />
-        <FormLabel 
-        htmlFor='isChecked' 
-        position="fixed"
-        top="226px"
-        left="82px"
-        >Vuelta</FormLabel>
+                <Switch colorScheme='red'
+                    onChange={toggleSwitch}
+                    checked={isEnabled}
+                    label="Secondary"
+                    position="fixed"
+                    top="230px"
+                    left="60px"
+                    name="checkedB"
+                />
+                <FormLabel
+                    htmlFor='isChecked'
+                    position="fixed"
+                    top="226px"
+                    left="102px"
+                >Vuelta</FormLabel>
 
         {estadoModal1 &&
 
