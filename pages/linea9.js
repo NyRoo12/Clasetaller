@@ -11,7 +11,7 @@ import Layout from '../pages/cuerpo'
 import MapViewI from '../components/MapView9Ida'
 import MapViewV from '../components/MapView9Vuelta'
 
-//arreeglao
+
 
 export default function linea11() {
     const [estadoModal1, cambiarEstadomodal1] = useState(true);
