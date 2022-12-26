@@ -33,7 +33,7 @@ export default function linea2() {
         <FormLabel 
         htmlFor='isChecked' 
         position="fixed"
-        top="126px"
+        top="226px"
         left="10px"
         >Ida</FormLabel>
 
@@ -43,14 +43,14 @@ export default function linea2() {
         checked={isEnabled} 
         label="Secondary"
         position="fixed"
-        top="130px"
+        top="230px"
         left="40px"
         name="checkedB"
         />
         <FormLabel 
         htmlFor='isChecked' 
         position="fixed"
-        top="126px"
+        top="226px"
         left="82px"
         >Vuelta</FormLabel>
 
