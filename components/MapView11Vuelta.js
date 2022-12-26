@@ -10,7 +10,6 @@ export default function MapView() {
     return <Map />;
 
 }
-
 function Map() {
 
     const center = useMemo(() => ({ lat: -39.8239, lng: -73.2458 }), []);
@@ -59,8 +58,7 @@ function Map() {
         },
 
     );
-
-    return (
+return (
         <GoogleMap
 
             zoom={14}

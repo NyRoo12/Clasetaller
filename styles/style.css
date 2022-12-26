@@ -839,9 +839,13 @@ li {
   transition: all 1s;
 }
 
+.flechaL:hover {
+  width: 415px;
+  height: 210px;
+}
 
-.flechaR {
-  top: 250px;
+.flechaR{
+  top : 250px;
   right: 320px;
   width: 200px;
   height: 200px;
@@ -854,7 +858,7 @@ li {
 }
 
 .flechaR:hover {
-  /* Establece las propiedades finales del elemento */
+  
   width: 220px;
   height: 210px;
 }
@@ -868,8 +872,8 @@ li {
 }
 
 
-.cuadroblanco1 {
-  top: 360px;
+.cuadroblanco1{
+  top : 330px;
   left: 430px;
   width: 170px;
   height: 100px;
@@ -881,15 +885,15 @@ li {
   transition: all 1s;
 }
 .cuadroblanco1:hover {
-  /* Establece las propiedades finales del elemento */
+  
   background-color: red;
   width: 170px;
   height: 100px;
 }
 
-.cuadroblanco2 {
-  top: 450px;
-  left: 890px;
+.cuadroblanco2{
+  top : 450px;
+  left: 920px;
   width: 120px;
   height: 100px;
   color: rgb(0, 0, 0);
@@ -900,7 +904,7 @@ li {
   transition: all 1s;
 }
 .cuadroblanco2:hover {
-  /* Establece las propiedades finales del elemento */
+  
   background-color: red;
   width: 120px;
   height: 100px;
@@ -920,7 +924,6 @@ li {
   from{transform: translate(0px, 0%);}
   to{transform: translate(10px, 0%);}
 }
-
 .map-container {
   width: 100%;
   height: 100%;
@@ -931,7 +934,7 @@ li {
   min-height: 100vh;
   min-width: 100vh;
   background: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)),
-    url(/images/imagen2.jpg) no-repeat center center fixed;
+    url(/images/fondoKasus.png) no-repeat center center fixed;
   background-size: cover;
   opacity: 1;
 }
@@ -1014,5 +1017,5 @@ li {
   z-index: 99;
   left: 30px;
   top: 190px;
-  position: fixed;
+  position:fixed;
 }
