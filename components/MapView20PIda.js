@@ -1,8 +1,8 @@
-import { React, useState } from 'react';
+import { React, useState, useMemo } from 'react';
 import { GoogleMap, useLoadScript, DirectionsRenderer } from '@react-google-maps/api';
 import credentials from './credentials';
 
-export default function MapView() {
+export default function MapViewI() {
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: credentials.mapsKey,
     });
@@ -13,10 +13,10 @@ export default function MapView() {
 
 function Map() {
 
-    const center = { lat: -39.8239, lng: -73.2458 };
+    const center = useMemo(() => ({ lat: -39.8239, lng: -73.2458 }), []);
 
     const options = {
-        strokeColor: 'orange',
+        strokeColor: '#ea802f',
         strokeOpacity: 1,
         strokeWeight: 4,
         clickable: true,

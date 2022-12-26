@@ -23,7 +23,7 @@ export default function linea2() {
     </Head>
     <Center  height="700" bg='white.500' width='1481px'>
         
-    {isEnabled &&
+        {isEnabled &&
             <MapView/> 
             
         }
