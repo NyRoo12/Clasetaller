@@ -1,6 +1,7 @@
 import {
     Center,
-    Spacer
+    Switch,
+    FormLabel
 }
 from "@chakra-ui/react";
 import Head from 'next/head'
@@ -12,38 +13,47 @@ import MapView1 from '../components/MapView9Vuelta';
 
 export default function linea11() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
-    const[ida, cambiarida] = useState(false);
-    const[vuelta, cambiarvuelta] = useState(false);
+    const [isEnabled, setIsEnabled] = useState(true);
+    const toggleSwitch = () => {setIsEnabled(!isEnabled)};
     return (
     <Layout pageId="linea11">
     <Head>
         <title>Linea 9</title>
     </Head>
     <Center  height="700" bg='white.500'  width='1481px'>
-        
-    <a  class="botonida" onClick={()=> {
-            cambiarida(true)
-            cambiarvuelta(false)
-            }} >
 
-            ida
-        </a>
-
-        <a  class="botonvuelta" onClick={()=> {
-            cambiarvuelta(true)
-            cambiarida(false)
-            }}>
-
-            vuelta
-        </a>
-
-        {ida &&
+        {isEnabled &&
             <MapView/> 
+            
         }
-        
-        {vuelta &&
-            <MapView1/>
+        {!isEnabled &&
+            <MapView1/> 
+            
         }
+        <FormLabel 
+        htmlFor='isChecked' 
+        position="fixed"
+        top="126px"
+        left="10px"
+        >Ida</FormLabel>
+
+
+        <Switch  colorScheme='red'
+        onChange={toggleSwitch}
+        checked={isEnabled} 
+        label="Secondary"
+        position="fixed"
+        top="130px"
+        left="40px"
+        name="checkedB"
+        />
+        <FormLabel 
+        htmlFor='isChecked' 
+        position="fixed"
+        top="126px"
+        left="82px"
+        >Vuelta</FormLabel>
+
         
         {estadoModal1 &&
         

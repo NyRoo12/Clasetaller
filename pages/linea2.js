@@ -1,17 +1,21 @@
 import {
     Center,
-    Spacer,
+    FormLabel,
+    Switch,
 }
 from "@chakra-ui/react";
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../pages/cuerpo'
 import { useState } from "react";
-import MapView from '../components/MapView2';
+import MapView from '../components/MapView2Ida';
+import MapView1 from '../components/MapView2Vuelta';
 
 
 export default function linea2() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
+    const [isEnabled, setIsEnabled] = useState(true);
+    const toggleSwitch = () => {setIsEnabled(!isEnabled)};
     return (
     <Layout pageId="linea2">
     <Head>
@@ -19,7 +23,36 @@ export default function linea2() {
     </Head>
     <Center  height="700" bg='white.500' width='1481px'>
         
-        <MapView/>
+    {isEnabled &&
+            <MapView/> 
+            
+        }
+        {!isEnabled &&
+            <MapView1/> 
+        }
+        <FormLabel 
+        htmlFor='isChecked' 
+        position="fixed"
+        top="126px"
+        left="10px"
+        >Ida</FormLabel>
+
+
+        <Switch  colorScheme='red'
+        onChange={toggleSwitch}
+        checked={isEnabled} 
+        label="Secondary"
+        position="fixed"
+        top="130px"
+        left="40px"
+        name="checkedB"
+        />
+        <FormLabel 
+        htmlFor='isChecked' 
+        position="fixed"
+        top="126px"
+        left="82px"
+        >Vuelta</FormLabel>
 
         {estadoModal1 &&
 

@@ -10,17 +10,17 @@ import Layout from '../pages/cuerpo'
 import MapView from '../components/MapView'
 
 
-export default function linea20() {
+
+export default function linea20R() {
     const[estadoModal1, cambiarEstadomodal1] = useState(true);
     return (
-    <Layout pageId="linea20">
+    <Layout pageId="linea20R">
     <Head>
         <title>Linea 20</title>
     </Head>
     <Center  height="700" bg='white.500'  width='1481px'>
         
-    <MapView/> 
-
+    
         {estadoModal1 &&
         
         <div class="promos">  
