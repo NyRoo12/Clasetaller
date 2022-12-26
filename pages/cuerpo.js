@@ -17,7 +17,6 @@ const Comienzo = ({ children }) => {
 
             <MainContentLayout>
                 {children}
-            
             </MainContentLayout>
             <FooterLayout />
         </MainContainerLayout>

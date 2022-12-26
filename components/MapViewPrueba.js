@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useMemo } from 'react';
 import {Polyline, GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
 import credentials from './credentials';
 import { useState } from "react";
@@ -23,7 +23,7 @@ function Map() {
     
     const[mostrar, cambiarmapa] = useState(true);
     const[mostrar2, cambiarmapa2] = useState(true);
-    const center = { lat: -39.843094, lng: -73.228876};
+    const center = useMemo(()=>({lat: -39.8239, lng: -73.2458}),[]);
 
     const onLoad = polyline => {
         console.log('polyline: ', polyline)
@@ -370,7 +370,7 @@ function Map() {
         editable: false,
         visible: mostrar,
         radius: 30000,
-        extraMapTypes:null
+        
     
     };
 
@@ -385,19 +385,31 @@ function Map() {
         editable: false,
         visible: mostrar2,
         radius: 30000,
-        extraMapTypes:null
+        
     
     };
     
     return (
-
+        
         <GoogleMap
-
+            
             zoom={14}
             center={center}
             mapContainerClassName="map-container"
             mapTypeId='roadmap'
-            markers={[{ lat: -39.843094, lng: -73.228876},{lat:-39.806889, lng:-73.252023}]}
+            defaultOptions={{
+                // these following 7 options turn certain controls off see link below
+                streetViewControl: false,
+                scaleControl: false,
+                mapTypeControl: false,
+                panControl: false,
+                zoomControl: false,
+                rotateControl: false,
+                fullscreenControl: false,
+                disableDefaultUI: true,
+                }}
+                
+            
         >
             <Polyline
                 onLoad={onLoad}
