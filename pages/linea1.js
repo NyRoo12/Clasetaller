@@ -5,7 +5,7 @@ from "@chakra-ui/react";
 import Head from 'next/head'
 import { useState } from "react";
 import Layout from '../pages/cuerpo'
-import MapView from '../components/MapView';
+import MapView from '../components/MapView5Vuelta';
 import MostarLineas from '../components/MapViewPrueba';
 
 
@@ -16,7 +16,6 @@ export default function linea1() {
     <Layout pageId="linea1">
     <Head>
         <title>Linea 1</title>
-        
     </Head>
 
     <Center  height="700" bg='white.500' border='2px' borderColor='black' width='1481px'>
@@ -55,8 +54,6 @@ export default function linea1() {
         }
         
         </Center>
-        
-
     </Layout>
 )
 }
