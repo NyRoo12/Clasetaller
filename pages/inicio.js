@@ -41,6 +41,29 @@ export default function inicio() {
             <span class="price">Horario: 06:00 - 19:00</span>
 
             <img src="images/linea1.jpg" width='100%'></img>
+            <FormLabel
+                    htmlFor='isChecked'
+                    position="fixed"
+                    top="226px"
+                    left="30px"
+                >Ida</FormLabel>
+
+
+                <Switch colorScheme='red'
+                    onChange={toggleSwitch}
+                    checked={isEnabled}
+                    label="Secondary"
+                    position="fixed"
+                    top="230px"
+                    left="60px"
+                    name="checkedB"
+                />
+                <FormLabel
+                    htmlFor='isChecked'
+                    position="fixed"
+                    top="226px"
+                    left="102px"
+                >Vuelta</FormLabel>
 
             </div>
 
