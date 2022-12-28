@@ -17,7 +17,7 @@ function Map() {
 
     const options = {
         strokeColor: 'orange',
-        strokeOpacity: 1,
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };
@@ -25,8 +25,8 @@ function Map() {
     const directionsService = new google.maps.DirectionsService();
     let [directions, setDirections] = useState("");
 
-    const origin = { lat: -39.86559621702352, lng: -73.3930594575499 };
-    const destination = { lat: -39.85079992903318, lng: -73.2462539984911 };
+    const origin = {lat : -39.86141500433953, lng : -73.18000761623581};
+    const destination = {lat: -39.85022487640167, lng: -73.2505277823172};
 
     directionsService.route(
         {
@@ -34,28 +34,42 @@ function Map() {
             destination: destination,
             travelMode: google.maps.TravelMode.DRIVING,
 
-            waypoints: [
+            waypoints: 
+            [
                 {
-                    location: { lat: -39.8129523136694, lng: -73.24147194031515 },
+                    location: {lat : -39.86141500433953, lng : -73.18000761623581},
                 }, {
-                    location: { lat: -39.81354888528052, lng: -73.24158221344523 }
+                    location: { lat: -39.84736218636556, lng : -73.20679648278971}
                 }, {
-                    location: { lat: -39.812859363754576, lng: - 73.24660595520994 }
+                    location: { lat: -39.84712323001791, lng : -73.20911730846548}
                 }, {
-                    location: { lat: -39.81689313129397, lng: -73.23474376905723 }
-                }, {
-                    location: { lat: -39.83346608063336, lng: -73.21557881295045 }
-                }, {
-                    location: { lat: -39.83805303737938, lng: -73.2294102709435 }
-                }, {
-                    location: { lat: -39.84417228425064, lng: -73.22813890469521 }
-                }, {
-                    location: { lat: -39.85390499448746, lng: -73.24914088583365 }
-                }, {
-                    location: { lat: -39.85304402320954, lng: -73.25119816619222 }
-                }, {
-                    location: { lat: -39.84898205106918, lng: -73.24922946232209 }
-                }]
+                    location : {lat: -39.843338120831184, lng : -73.20575649009275}
+                },{
+                    location : {lat: -39.8428299069311, lng: -73.20409053184467}
+                },{
+                    location: {lat: -39.83716793811233, lng: -73.19940013245599}
+                },{
+                    location : {lat: -39.83535759842975, lng: -73.20052794221559}
+                },{
+                    location: {lat: -39.83888888058487, lng: -73.20570781336586}
+                },{
+                    location: {lat: -39.837908454215295, lng:-73.20969699956481}
+                },{
+                    location: {lat: -39.812525832514275, lng:-73.24136844550911}
+                },{
+                    location: {lat: -39.81353239809163, lng: -73.24165129073681}
+                },{
+                    location : {lat: -39.85090649112159, lng: -73.25086644495661}
+                },{
+                    location: { lat: -39.85118682990802, lng: -73.25066805243635}
+                },{
+                    location: {lat: -39.852669926332396, lng: -73.24828485933482}
+                },{
+                    location: {lat: -39.850817147243156, lng: -73.24625278006268}
+                },{
+                    location: {lat: -39.84887011908891, lng: -73.24939160552441}
+                }
+            ]
         },
         (result, status) => {
             if (status === google.maps.DirectionsStatus.OK) {

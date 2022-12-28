@@ -16,8 +16,8 @@ function Map() {
     const center = useMemo(() => ({ lat: -39.8239, lng: -73.2458 }), []);
 
     const options = {
-        strokeColor: 'orange',
-        strokeOpacity: 1,
+        strokeColor: 'red',
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };
@@ -25,8 +25,8 @@ function Map() {
     const directionsService = new google.maps.DirectionsService();
     let [directions, setDirections] = useState("");
 
-    const origin = { lat: -39.86559621702352, lng: -73.3930594575499 };
-    const destination = { lat: -39.85079992903318, lng: -73.2462539984911 };
+    const origin = { lat:-39.85034, lng:-73.25053 };
+    const destination = { lat:-39.79511, lng:-73.2014 };
 
     directionsService.route(
         {
@@ -36,25 +36,27 @@ function Map() {
 
             waypoints: [
                 {
-                    location: { lat: -39.8129523136694, lng: -73.24147194031515 },
-                }, {
-                    location: { lat: -39.81354888528052, lng: -73.24158221344523 }
-                }, {
-                    location: { lat: -39.812859363754576, lng: - 73.24660595520994 }
-                }, {
-                    location: { lat: -39.81689313129397, lng: -73.23474376905723 }
-                }, {
-                    location: { lat: -39.83346608063336, lng: -73.21557881295045 }
-                }, {
-                    location: { lat: -39.83805303737938, lng: -73.2294102709435 }
-                }, {
-                    location: { lat: -39.84417228425064, lng: -73.22813890469521 }
-                }, {
-                    location: { lat: -39.85390499448746, lng: -73.24914088583365 }
-                }, {
-                    location: { lat: -39.85304402320954, lng: -73.25119816619222 }
-                }, {
-                    location: { lat: -39.84898205106918, lng: -73.24922946232209 }
+                    location: { lat:-39.84074, lng: -73.25689 },
+                },{
+                    location: { lat:-39.83425, lng: -73.25198 },
+                },{
+                    location: { lat:-39.82781, lng: -73.24952 },
+                },{
+                    location: { lat:-39.81513, lng: -73.24649 },
+                },{
+                    location: { lat:-39.81685, lng: -73.23481 },
+                },{
+                    location: { lat:-39.82789, lng: -73.22241 },
+                },{
+                    location: { lat:-39.82463, lng: -73.21549 },
+                },{
+                    location: { lat:-39.82708, lng: -73.21021 },
+                },{
+                    location: { lat:-39.82445, lng: -73.20864 },
+                },{
+                    location: { lat:-39.82285, lng: -73.21134 },
+                },{
+                    location: { lat:-39.82278, lng:-73.20753 },
                 }]
         },
         (result, status) => {

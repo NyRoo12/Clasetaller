@@ -17,7 +17,7 @@ function Map() {
 
     const options = {
         strokeColor: '#2d9b14',
-        strokeOpacity: 1,
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };

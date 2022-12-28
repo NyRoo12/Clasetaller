@@ -16,8 +16,8 @@ function Map() {
     const center = useMemo(() => ({ lat: -39.8239, lng: -73.2458 }), []);
 
     const options = {
-        strokeColor: 'orange',
-        strokeOpacity: 1,
+        strokeColor: 'red',
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };
@@ -34,7 +34,7 @@ function Map() {
             destination: destination,
             travelMode: google.maps.TravelMode.DRIVING,
 
-            waypoints: [
+            waypoints:  [
                 {
                     location: { lat:-39.82278, lng:-73.20753 },
                 },{
@@ -61,14 +61,19 @@ function Map() {
                     location: { lat:-39.85004, lng: -73.2542 },
                 },{
                     location: { lat:-39.8511,  lng: -73.25267 },
-                },{location:{lat:-39.850220, lng:-73.250966}},
-                {location:{lat:-39.850804, lng:-73.250774}},
-                {location:{lat:-39.850977, lng:-73.250714}},
-                {location:{lat:-39.851147, lng:-73.250529}},
-                {location:{lat:-39.851716, lng:-73.249674}},
-                {location:{lat:-39.851364, lng:-73.246856}}
-            
-            ]
+                },{
+                    location: { lat:-39.84995, lng: -73.25137 },
+                },{
+                    location: { lat:-39.85091, lng: -73.25082 },
+                },{
+                    location: { lat:-39.85302, lng: -73.2513 },
+                },{
+                    location: { lat:-39.85265, lng: -73.24826 },
+                },{
+                    location: { lat:-39.85081, lng: -73.24625 },
+                },{
+                    location: { lat:-39.84886, lng: -73.2494 },
+                }]
         },
         (result, status) => {
             if (status === google.maps.DirectionsStatus.OK) {

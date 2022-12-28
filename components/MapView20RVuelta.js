@@ -17,7 +17,7 @@ function Map() {
 
     const options = {
         strokeColor: 'orange',
-        strokeOpacity: 1,
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };
@@ -25,8 +25,8 @@ function Map() {
     const directionsService = new google.maps.DirectionsService();
     let [directions, setDirections] = useState("");
 
-    const origin = { lat: -39.86559621702352, lng: -73.3930594575499 };
-    const destination = { lat: -39.85079992903318, lng: -73.2462539984911 };
+    const origin = { lat: -39.80687654029117, lng: -73.25167422727712 };
+    const destination = { lat: -39.85699947632048, lng: -73.23745504694396 };
 
     directionsService.route(
         {
@@ -36,25 +36,27 @@ function Map() {
 
             waypoints: [
                 {
-                    location: { lat: -39.8129523136694, lng: -73.24147194031515 },
+                    location: { lat: -39.81026748529907, lng: -73.25216989554623 }
                 }, {
-                    location: { lat: -39.81354888528052, lng: -73.24158221344523 }
+                    location: { lat: -39.81006829478492, lng: -73.25767559627589 },
                 }, {
-                    location: { lat: -39.812859363754576, lng: - 73.24660595520994 }
+                    location: { lat: -39.81296668402236, lng: -73.24144635681306 }
                 }, {
-                    location: { lat: -39.81689313129397, lng: -73.23474376905723 }
+                    location: { lat: -39.81353538635768, lng: -73.24157320279716 }
                 }, {
-                    location: { lat: -39.83346608063336, lng: -73.21557881295045 }
+                    location: { lat: -39.81287590463508, lng: -73.24661139130646 }
                 }, {
-                    location: { lat: -39.83805303737938, lng: -73.2294102709435 }
+                    location: { lat: -39.8150044047969, lng: -73.24723571854568 }
                 }, {
-                    location: { lat: -39.84417228425064, lng: -73.22813890469521 }
+                    location: { lat: -39.82848566751558, lng: -73.24671658299519 }
                 }, {
-                    location: { lat: -39.85390499448746, lng: -73.24914088583365 }
+                    location: { lat: -39.831662314345316, lng: -73.23776981036636 }
                 }, {
-                    location: { lat: -39.85304402320954, lng: -73.25119816619222 }
+                    location: { lat: -39.853930023296726, lng: -73.24914523050522 }
                 }, {
-                    location: { lat: -39.84898205106918, lng: -73.24922946232209 }
+                    location: { lat: -39.85496917665264, lng: -73.24742872033838 }
+                }, {
+                    location: { lat: -39.85728442167745, lng: -73.24532302885575 }
                 }]
         },
         (result, status) => {

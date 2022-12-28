@@ -17,7 +17,7 @@ function Map() {
 
     const options = {
         strokeColor: 'orange',
-        strokeOpacity: 1,
+        strokeOpacity: 0.8,
         strokeWeight: 5,
         clickable: true,
     };
@@ -25,8 +25,8 @@ function Map() {
     const directionsService = new google.maps.DirectionsService();
     let [directions, setDirections] = useState("");
 
-    const origin = { lat: -39.86559621702352, lng: -73.3930594575499 };
-    const destination = { lat: -39.85079992903318, lng: -73.2462539984911 };
+    const origin = { lat: -39.85699947632048, lng: -73.23745504694396 };
+    const destination = { lat: -39.80687654029117, lng: -73.25167422727712 };
 
     directionsService.route(
         {
@@ -36,25 +36,27 @@ function Map() {
 
             waypoints: [
                 {
-                    location: { lat: -39.8129523136694, lng: -73.24147194031515 },
+                    location: { lat: -39.856883991523944, lng: -73.23732237263198 },
                 }, {
-                    location: { lat: -39.81354888528052, lng: -73.24158221344523 }
+                    location: { lat: -39.85636252988498, lng: -73.24668857011143 }
                 }, {
-                    location: { lat: -39.812859363754576, lng: - 73.24660595520994 }
+                    location: { lat: -39.854938922872414, lng: -73.24744973743684 }
                 }, {
-                    location: { lat: -39.81689313129397, lng: -73.23474376905723 }
+                    location: { lat: -39.85398270924825, lng: -73.24900800483663 }
                 }, {
-                    location: { lat: -39.83346608063336, lng: -73.21557881295045 }
+                    location: { lat: -39.831733609899906, lng: -73.23759590587318 }
                 }, {
-                    location: { lat: -39.83805303737938, lng: -73.2294102709435 }
+                    location: { lat: -39.82843396354214, lng: -73.24669559219419 }
                 }, {
-                    location: { lat: -39.84417228425064, lng: -73.22813890469521 }
+                    location: { lat: -39.819649023261384, lng: -73.24437848702848 }
                 }, {
-                    location: { lat: -39.85390499448746, lng: -73.24914088583365 }
+                    location: { lat: -39.81900601474255, lng: -73.24764582462701 }
                 }, {
-                    location: { lat: -39.85304402320954, lng: -73.25119816619222 }
+                    location: { lat: -39.815252124716245, lng: -73.24651545047512 }
                 }, {
-                    location: { lat: -39.84898205106918, lng: -73.24922946232209 }
+                    location: { lat: -39.816890756692764, lng: -73.23485132599943 }
+                }, {
+                    location: { lat: -39.80707363418188, lng: -73.25134526239734 }
                 }]
         },
         (result, status) => {
