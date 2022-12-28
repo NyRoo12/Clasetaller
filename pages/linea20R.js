@@ -76,7 +76,7 @@ export default function linea20R() {
                             </span>
 
 
-                            <img src="images/linea20.jpg" width='100%'></img>
+                            <img src="images/linea20r.jpg" width='100%'></img>
 
 
                         </div>
