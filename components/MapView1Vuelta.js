@@ -25,8 +25,8 @@ function Map() {
     const directionsService = new google.maps.DirectionsService();
     let [directions, setDirections] = useState("");
 
-    const origin = { lat: -39.86559621702352, lng: -73.3930594575499 };
-    const destination = { lat: -39.85079992903318, lng: -73.2462539984911 };
+    const origin = { lat:-39.79511, lng:-73.2014 };
+    const destination = { lat:-39.85034, lng:-73.25053 };
 
     directionsService.route(
         {
@@ -36,26 +36,39 @@ function Map() {
 
             waypoints: [
                 {
-                    location: { lat: -39.8129523136694, lng: -73.24147194031515 },
-                }, {
-                    location: { lat: -39.81354888528052, lng: -73.24158221344523 }
-                }, {
-                    location: { lat: -39.812859363754576, lng: - 73.24660595520994 }
-                }, {
-                    location: { lat: -39.81689313129397, lng: -73.23474376905723 }
-                }, {
-                    location: { lat: -39.83346608063336, lng: -73.21557881295045 }
-                }, {
-                    location: { lat: -39.83805303737938, lng: -73.2294102709435 }
-                }, {
-                    location: { lat: -39.84417228425064, lng: -73.22813890469521 }
-                }, {
-                    location: { lat: -39.85390499448746, lng: -73.24914088583365 }
-                }, {
-                    location: { lat: -39.85304402320954, lng: -73.25119816619222 }
-                }, {
-                    location: { lat: -39.84898205106918, lng: -73.24922946232209 }
-                }]
+                    location: { lat:-39.82278, lng:-73.20753 },
+                },{
+                    location: { lat:-39.82285, lng: -73.21134 },
+                },{
+                    location: { lat:-39.82445, lng: -73.20864 },
+                },{
+                    location: { lat:-39.82708, lng: -73.21021},
+                },{
+                    location: { lat:-39.82463, lng: -73.21549 },
+                },{
+                    location: { lat:-39.82789, lng: -73.22241 },
+                },{
+                    location: { lat:-39.81489, lng: -73.24029 },
+                },{
+                    location: { lat:-39.81382, lng: -73.23979 },
+                },{
+                    location: { lat:-39.81287, lng: -73.24658 },
+                },{
+                    location: { lat:-39.81443, lng: -73.24783 },
+                },{
+                    location: { lat:-39.84974, lng: -73.25252 },
+                },{
+                    location: { lat:-39.85004, lng: -73.2542 },
+                },{
+                    location: { lat:-39.8511,  lng: -73.25267 },
+                },{location:{lat:-39.850220, lng:-73.250966}},
+                {location:{lat:-39.850804, lng:-73.250774}},
+                {location:{lat:-39.850977, lng:-73.250714}},
+                {location:{lat:-39.851147, lng:-73.250529}},
+                {location:{lat:-39.851716, lng:-73.249674}},
+                {location:{lat:-39.851364, lng:-73.246856}}
+            
+            ]
         },
         (result, status) => {
             if (status === google.maps.DirectionsStatus.OK) {
@@ -84,7 +97,7 @@ function Map() {
                 }}
 
             />
-
+            
         </GoogleMap>
     )
 }
