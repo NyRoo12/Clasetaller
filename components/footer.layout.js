@@ -6,9 +6,6 @@ const FooterLayout = ({children}) => {
         <footer className="dsc-footer">
         Kasus.inc
         </footer>
-        
-        
-        
     )
 }
 export default FooterLayout;

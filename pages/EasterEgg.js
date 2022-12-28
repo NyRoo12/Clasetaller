@@ -1,23 +1,29 @@
+import {
+    Button,
+    Link
+}
+
+from "@chakra-ui/react";
 import React from 'react';
 import Head from 'next/head';
 
 export default function egg() {
     return (
         <div id="egg">
+            <Link href="/inicio">
+            <Button colorScheme="black">
+                volver
+            </Button>
+            </Link>
             <Head>
                 <title>EasterEgg</title>
             </Head>
-            <div id="egg"> </div>
             <div class="tituloegg">
-                Acerca de Nosotros
+                Acerca de Nosotros...
             </div>
 
             <div class="textoegg">
-            La idea surgió, cuando empezamos este taller nuestro profesor nos presento la idea de este proyecto, y muchos de nosotros tuvo ideas diferentes y bien llamativas, pero la que mayor impacto hizo fue la de las líneas de micros, ya que muchos estudiantes nuevos, estarian este año conociendo la universidad(como nosotros), por lo cual es natural estar perdidos y no sabrían que micros utilizar. Por lo que fue necesario buscar acerca del tema, llegando a la conclusión de que este proyecto pudiera llegar hacer útil y necesario.
-            </div>
-
-            <div class="tbibliografia">
-                Bibliografia: 
+            Kasus surge como solución a una de las necesidades de los estudiantes, en específico a los recién ingresados en la universidad, nuevos estudiantes de diferentes partes del país (o de fuera inclusive) en donde valdivia es una ciudad desconocida y el saber como ir del hogar a la universidad o a comercios importantes es una de las primeras problemáticas que pueden presentar, por lo cual esta idea viene con el fin  de facilitar un poco la vida de los nuevos estudiantes en valdivia.
             </div>
 
             </div>
