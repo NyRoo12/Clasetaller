@@ -860,6 +860,23 @@ li {
   width: 220px;
   height: 210px;
 }
+.flechaArr{
+  top : 270px;
+  left: -10px;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  animation-name: miAnimacionflechaArr;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: all 1s; 
+}
+
+.flechaArr:hover {
+  width: 210px;
+  height: 200px;
+}
 
 .fondo {
   top: 0px;
@@ -908,9 +925,22 @@ li {
   height: 100px;
 }
 
-@keyframes miAnimacion {
-  from {transition: rotate(0deg);}
-  to {transition: rotate(360deg);}
+.cuadroblanco3{
+  top : 480px;
+  left: 10px;
+  width: 150px;
+  height: 120px;
+  color: rgb(0, 0, 0);
+  background: greenyellow;
+  position: fixed;
+  border-radius: 30px;
+  border: solid 5px rgb(75, 75, 75);
+  transition: all 1s;
+}
+.cuadroblanco3:hover {
+  background-color: red;
+  width: 150px;
+  height: 120px;
 }
 
 @keyframes miAnimacionflechaR{
@@ -922,6 +952,12 @@ li {
   from{transform: translate(0px, 0%);}
   to{transform: translate(10px, 0%);}
 }
+
+@keyframes miAnimacionflechaArr{
+  from{transform: translate(0px, 0%);}
+  to{transform: translate(0px, 10%);}
+}
+
 .map-container {
   width: 100%;
   height: 100%;
